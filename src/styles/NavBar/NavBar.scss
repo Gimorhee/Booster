@@ -1,4 +1,60 @@
-.SubNavBar {
-  height: 36px;
-  background-color: #f0f2f5;
+.MainNavBar {
+  height: 40px;
+  background: #f0f2f5;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .Brand-Logo,
+  .Register-Button,
+  .Login-Button {
+    text-decoration: none;
+  }
+
+  .Brand-Logo {
+    color: #fffdf9;
+    background: #02a8a8;
+    padding: 5px 10px;
+    margin: 3px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+
+  .Button-Container {
+    margin: 15px;
+
+    span {
+      background: #fffdf9;
+      color: #02a8a8;
+      padding: 1px 4px;
+      border-radius: 100%;
+      font-weight: 700;
+      margin: 5px;
+      font-size: 12px;
+    }
+
+    .Register-Button {
+      background: #02a8a8;
+      color: #fffdf9;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 13.5px;
+      font-weight: 600;
+      box-shadow: #02a8a8 0px 0px 0px 1px;
+      margin-right: 15px;
+    }
+
+    .Login-Button {
+      background: #fff;
+      padding: 5px 10px;
+      border: 1px solid #232020;
+      color: #232020;
+      border-radius: 5px;
+      font-size: 13.5px;
+      margin-right: 15px;
+    }
+  }
 }

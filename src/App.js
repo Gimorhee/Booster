@@ -13,8 +13,8 @@ function App() {
   return (
     <Router>
       <Fragment>
-        <SubNavBar />
-        <Route exact path="/" component={MainNavBar} />
+        <MainNavBar />
+        <Route exact path="/" component={SubNavBar} />
         <Switch>
           <Route exact path="/" component={Overview} />
           <Route exact path="/register" component={Register} />
