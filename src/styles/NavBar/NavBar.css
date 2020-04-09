@@ -79,4 +79,37 @@
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 4px;
           box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 4px;
 }
+
+.SubNavBar {
+  margin-top: 1px;
+  width: 100%;
+  height: 70px;
+}
+
+.SubNavBar .Inner-Container {
+  width: 100%;
+  height: 100%;
+  max-width: 1150px;
+  background: yellow;
+  margin: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 31px 0px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 31px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.SubNavBar .Inner-Container .SubNav-Link {
+  width: 15%;
+  text-decoration: none;
+}
 /*# sourceMappingURL=NavBar.css.map */
