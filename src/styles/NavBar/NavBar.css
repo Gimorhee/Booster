@@ -1,5 +1,5 @@
 .MainNavBar {
-  height: 40px;
+  height: 45px;
   background: #f0f2f5;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
           box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 0px 0px;
@@ -27,7 +27,7 @@
   margin: 3px;
   font-size: 18px;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 700;
   margin-left: 15px;
 }
 
@@ -40,7 +40,7 @@
   color: #02a8a8;
   padding: 1px 4px;
   border-radius: 100%;
-  font-weight: 700;
+  font-weight: 800;
   margin: 5px;
   font-size: 12px;
 }
@@ -48,13 +48,18 @@
 .MainNavBar .Button-Container .Register-Button {
   background: #02a8a8;
   color: #fffdf9;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 13.5px;
+  padding: 7px 10px;
   font-weight: 600;
-  -webkit-box-shadow: #02a8a8 0px 0px 0px 1px;
-          box-shadow: #02a8a8 0px 0px 0px 1px;
+  font-size: 13.5px;
+  border-radius: 5px;
   margin-right: 15px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.MainNavBar .Button-Container .Register-Button:hover {
+  -webkit-box-shadow: rgba(0, 250, 146, 0.3) 0px 0px 0px 4px;
+          box-shadow: rgba(0, 250, 146, 0.3) 0px 0px 0px 4px;
 }
 
 .MainNavBar .Button-Container .Login-Button {
@@ -62,8 +67,16 @@
   padding: 5px 10px;
   border: 1px solid #232020;
   color: #232020;
+  font-weight: 600;
   border-radius: 5px;
   font-size: 13.5px;
   margin-right: 15px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.MainNavBar .Button-Container .Login-Button:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 4px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 4px;
 }
 /*# sourceMappingURL=NavBar.css.map */
