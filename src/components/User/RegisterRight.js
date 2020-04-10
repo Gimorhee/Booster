@@ -8,7 +8,11 @@ export const RegisterRight = () => {
       <div className="Right-Inner">
         <div className="Right-Content">
           <h3>SYSTEM REQUIREMENTS</h3>
-          <p>PC - Windows 7 64-bit or newer</p>
+          <p>
+            <i className="fab fa-windows"></i>PC - Windows 7 32-bit or newer{" "}
+            <br />
+            <i className="fab fa-apple"></i>MAC - i5 64-bit or newer
+          </p>
           <h3>SUPPORTED GAMES</h3>
           <ul>
             <li>League of Legends</li>
