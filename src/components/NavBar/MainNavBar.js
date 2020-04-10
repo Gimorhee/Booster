@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export const MainNavBar = () => {
   return (
     <div className="MainNavBar">
-      <Link className="Brand-Logo" to="/">
-        B
+      <Link to="/">
+        <i className="fab fa-bootstrap Brand-Logo"></i>
       </Link>
       <div className="Button-Container">
         <Link className="Register-Button" to="/register">
