@@ -15,15 +15,33 @@ import { Extensions } from "./components/Extensions/Extensions";
 import "./App.css";
 
 function App() {
+  const [loginForm, setLoginForm] = useState(false);
+
+  const showLoginForm = () => {
+    setLoginForm(!loginForm);
+  };
+
   return (
     <Router>
       <Fragment>
-        <MainNavBar />
-        <Route exact path={["/", "/overview","/features","/howtouse","/games","/pricing","/extensions"]} component={SubNavBar} />
+        <MainNavBar showLoginForm={showLoginForm} />
+        {loginForm && <Login />}
+        <Route
+          exact
+          path={[
+            "/",
+            "/overview",
+            "/features",
+            "/howtouse",
+            "/games",
+            "/pricing",
+            "/extensions",
+          ]}
+          component={SubNavBar}
+        />
         <Switch>
           <Route exact path="/" component={Overview} />
           <Route exact path="/register" component={Register} />
-          <Route exact path="/login" component={Login} />
           <Route exact path="/features" component={Features} />
           <Route exact path="/howtouse" component={HowToUse} />
           <Route exact path="/games" component={Games} />

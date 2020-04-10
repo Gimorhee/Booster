@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const MainNavBar = () => {
+export const MainNavBar = ({ showLoginForm }) => {
   return (
     <div className="MainNavBar">
       <Link to="/">
@@ -11,7 +11,7 @@ export const MainNavBar = () => {
         <Link className="Register-Button" to="/register">
           <span>B</span> Create Account
         </Link>
-        <Link className="Login-Button" to="/login">
+        <Link className="Login-Button" onClick={() => showLoginForm()}>
           Login
         </Link>
       </div>

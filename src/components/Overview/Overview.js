@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../../styles/Overview/Overview.css";
+
 export const Overview = () => {
-  return <div>Overview Component</div>;
+  return <div className="Overview-Container">Overview Component</div>;
 };
