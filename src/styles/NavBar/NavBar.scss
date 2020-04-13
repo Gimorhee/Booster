@@ -93,7 +93,37 @@
 
     .SubNav-Link {
       width: 15%;
+      height: 100%;
       text-decoration: none;
+      color: #5f6769;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 500;
+
+      &:focus {
+        color: rgb(23, 26, 34);
+        border-bottom: 3px solid #02a8a8;
+      }
+
+      .SubNav-Logo {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .SubNavBar {
+    .Inner-Container {
+      .SubNav-Link {
+        span {
+          display: none;
+        }
+      }
     }
   }
 }

@@ -389,4 +389,17 @@
   color: #f8b500;
   font-size: 13px;
 }
+
+@media only screen and (max-width: 475px) {
+  .Login-Container {
+    max-width: 350px !important;
+  }
+  .Login-Container .Login-Inner {
+    width: 320px !important;
+  }
+  .Login-Alert-Container {
+    max-width: 350px !important;
+    height: 200px !important;
+  }
+}
 /*# sourceMappingURL=User.css.map */

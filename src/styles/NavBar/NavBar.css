@@ -110,6 +110,37 @@
 
 .SubNavBar .Inner-Container .SubNav-Link {
   width: 15%;
+  height: 100%;
   text-decoration: none;
+  color: #5f6769;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.SubNavBar .Inner-Container .SubNav-Link:focus {
+  color: #171a22;
+  border-bottom: 3px solid #02a8a8;
+}
+
+.SubNavBar .Inner-Container .SubNav-Link .SubNav-Logo {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 475px) {
+  .SubNavBar .Inner-Container .SubNav-Link span {
+    display: none;
+  }
 }
 /*# sourceMappingURL=NavBar.css.map */
