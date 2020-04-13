@@ -116,6 +116,14 @@
   }
 }
 
+@media only screen and (max-width: 675px) {
+  .SubNavBar {
+    .Inner-Container {
+      justify-content: space-around;
+    }
+  }
+}
+
 @media only screen and (max-width: 475px) {
   .SubNavBar {
     .Inner-Container {

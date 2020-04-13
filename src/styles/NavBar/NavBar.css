@@ -138,6 +138,13 @@
   margin-bottom: 3px;
 }
 
+@media only screen and (max-width: 675px) {
+  .SubNavBar .Inner-Container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 @media only screen and (max-width: 475px) {
   .SubNavBar .Inner-Container .SubNav-Link span {
     display: none;
