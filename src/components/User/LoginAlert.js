@@ -15,7 +15,7 @@ export const LoginAlert = ({ closeAlert }) => {
       </div>
       <div className="Center-Alert">
         <p>
-          For enhanced security, please create a password with at least one
+          For enhanced security, please create a password with at least one{" "}
           <span>uppercase letter</span> and <span>special symbols.</span>
         </p>
       </div>

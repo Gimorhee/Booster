@@ -20,13 +20,13 @@
         margin: 0 auto;
         max-width: 450px;
         width: 100%;
+        margin-top: 50px;
 
         .Register-Logo {
           color: #3c4245;
           font-weight: 500;
           text-decoration: none;
           font-size: 40px;
-          margin-top: 600px;
         }
 
         h2 {
@@ -113,7 +113,7 @@
     .Right-Inner {
       width: 100%;
       padding: 35px;
-      margin-top: 50px;
+      margin-top: 70px;
 
       .Right-Content {
         margin: 0 auto;
@@ -182,6 +182,14 @@
   right: 5px;
   top: 50px;
   z-index: 201;
+
+  .CloseLogin {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: #aaaaaa;
+  }
 
   .Login-Inner {
     width: 365px;
@@ -253,8 +261,7 @@
         background: #02a8a8;
         border: none;
         font-size: 15.5px;
-        font-weight: 600;
-        padding: 13px 25px;
+        padding: 11px 22px;
         border-radius: 5px;
         cursor: pointer;
         transition: 0.3s all;
