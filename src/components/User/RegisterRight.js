@@ -7,7 +7,8 @@ export const RegisterRight = () => {
   const props = useSpring({
     from: { opacity: 0, marginTop: -500 },
     to: { opacity: 1, marginTop: 0 },
-    config: { duration: 500, delay: 500 },
+    config: { duration: 500 },
+    delay: 200,
   });
 
   return (

@@ -9,7 +9,8 @@ export const RegisterLeft = () => {
   const props = useSpring({
     from: { opacity: 0, marginTop: -500 },
     to: { opacity: 1, marginTop: 0 },
-    config: { duration: 500, delay: 500 },
+    config: { duration: 500 },
+    delay: 200,
   });
 
   return (
@@ -29,7 +30,7 @@ export const RegisterLeft = () => {
             or stay our free Booster Rewards plan.
           </p>
           <RegisterForm />
-          <Link to="/login" className="Link-To-Login">
+          <Link to="/register" className="Link-To-Login">
             Already a member?
           </Link>
         </div>

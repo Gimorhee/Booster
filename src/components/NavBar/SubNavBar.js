@@ -8,6 +8,7 @@ export const SubNavBar = () => {
   const props = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
+    delay: 600,
   });
 
   return (

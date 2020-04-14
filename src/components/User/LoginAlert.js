@@ -7,7 +7,7 @@ export const LoginAlert = ({ closeAlert }) => {
   const props = useSpring({
     from: { opacity: 0, marginRight: -500 },
     to: { opacity: 1, marginRight: 0 },
-    config: { duration: 400, delay: 400 },
+    config: { duration: 400 },
   });
 
   return (
