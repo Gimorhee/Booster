@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
-
 import { LoginAlert } from "./LoginAlert";
+import { useSpring, animated } from "react-spring";
 
 import "../../styles/User/User.css";
 
@@ -16,10 +16,16 @@ export const Login = () => {
     setShowAlert(false);
   };
 
+  const props = useSpring({
+    from: { opacity: 0, marginRight: -500 },
+    to: { opacity: 1, marginRight: 0 },
+    config: { duration: 400, delay: 400 },
+  });
+
   return (
     <Fragment>
       {showLogin && (
-        <div className="Login-Container">
+        <animated.div style={props} className="Login-Container">
           <i
             className="fas fa-times CloseLogin"
             onClick={() => closeLogin()}
@@ -41,7 +47,7 @@ export const Login = () => {
               <button>Log In</button>
             </div>
           </div>
-        </div>
+        </animated.div>
       )}
       {showAlert && showLogin && <LoginAlert closeAlert={closeAlert} />}
     </Fragment>

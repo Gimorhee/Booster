@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSpring, animated, config } from "react-spring";
 
 import "../../styles/NavBar/NavBar.css";
 
 export const SubNavBar = () => {
+  const props = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  });
+
   return (
-    <div className="SubNavBar">
+    <animated.div style={props} className="SubNavBar">
       <div className="Inner-Container">
         <Link className="SubNav-Link" to="/">
           <i class="fab fa-bootstrap SubNav-Logo"></i>
@@ -32,6 +38,6 @@ export const SubNavBar = () => {
           <span>Extensions</span>
         </Link>
       </div>
-    </div>
+    </animated.div>
   );
 };

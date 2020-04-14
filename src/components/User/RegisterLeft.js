@@ -1,14 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { RegisterForm } from "./RegisterForm";
+import { useSpring, animated } from "react-spring";
 
 import "../../styles/User/User.css";
 
 export const RegisterLeft = () => {
+  const props = useSpring({
+    from: { opacity: 0, marginTop: -500 },
+    to: { opacity: 1, marginTop: 0 },
+    config: { duration: 500, delay: 500 },
+  });
+
   return (
     <div className="Left-Container">
-      <div className="Left-Inner">
+      <animated.div style={props} className="Left-Inner">
         <div className="Left-Content">
           <Link to="/" className="Register-Logo">
             <i className="fab fa-bootstrap"></i>
@@ -27,7 +33,7 @@ export const RegisterLeft = () => {
             Already a member?
           </Link>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 };

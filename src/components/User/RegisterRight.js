@@ -1,11 +1,18 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 import "../../styles/User/User.css";
 
 export const RegisterRight = () => {
+  const props = useSpring({
+    from: { opacity: 0, marginTop: -500 },
+    to: { opacity: 1, marginTop: 0 },
+    config: { duration: 500, delay: 500 },
+  });
+
   return (
     <div className="Right-Container">
-      <div className="Right-Inner">
+      <animated.div style={props} className="Right-Inner">
         <div className="Right-Content">
           <h3>SYSTEM REQUIREMENTS</h3>
           <p>
@@ -42,7 +49,7 @@ export const RegisterRight = () => {
             boost pings for gamers to carry their games!
           </p>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 };
