@@ -2,7 +2,111 @@
   width: 100%;
   position: absolute;
   margin-top: 116px;
-  height: 87vh;
-  background: grey;
+  background: #f0f2f5;
+}
+
+.Overview-Container .Overview1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Overview-Container .Overview1 .Overview1-Top {
+  width: 100%;
+  max-width: 1200px;
+  padding: 65px 40px 35px;
+  text-align: center;
+}
+
+.Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
+  display: block;
+  font-size: 40px;
+  line-height: 63px;
+  color: #373737;
+}
+
+.Overview-Container .Overview1 .Overview1-Top p {
+  margin: auto;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #373737;
+  margin-bottom: 45px;
+}
+
+.Overview-Container .Overview1 .Overview1-Top .Register-Button {
+  text-decoration: none;
+  font-size: 18px;
+  background: #02a8a8;
+  border: none;
+  border-radius: 4px;
+  padding: 17px 35px;
+  color: #fff;
+}
+
+.Overview-Container .Overview1 .Overview1-Top .Register-Button:focus {
+  outline: none;
+}
+
+.Overview-Container .Overview1 .Overview1-Top .Register-Button:hover {
+  -webkit-box-shadow: rgba(41, 255, 173, 0.36) 0px 0px 0px 4px;
+          box-shadow: rgba(41, 255, 173, 0.36) 0px 0px 0px 4px;
+}
+
+.Overview-Container .Overview1 .Overview1-Bottom {
+  width: 100%;
+  margin-top: 35px;
+  background-image: url("../../../src/images/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
+  width: 60%;
+  display: block;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
+    font-size: 32px;
+  }
+  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
+    width: 88%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Overview-Container .Overview1 .Overview1-Top {
+    padding: 45px 40px 35px;
+  }
+  .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .Overview-Container .Overview1 .Overview1-Top p {
+    font-size: 13.5px;
+  }
+  .Overview-Container .Overview1 .Overview1-Top .Register-Button {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
 }
 /*# sourceMappingURL=Overview.css.map */
