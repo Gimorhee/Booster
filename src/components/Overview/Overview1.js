@@ -4,8 +4,6 @@ import { useSpring, animated } from "react-spring";
 
 import image from "../../images/overview.png";
 
-// import test from "../../images/games/apex.png";
-
 import "../../styles/Overview/Overview.css";
 
 export const Overview1 = () => {

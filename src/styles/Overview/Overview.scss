@@ -53,7 +53,7 @@
 
     .Overview1-Bottom {
       width: 100%;
-      margin-top: 35px;
+      margin: 35px 0;
       background-image: url("../../../src/images/bg.png");
       background-position: center;
       background-size: cover;
@@ -71,6 +71,59 @@
       }
     }
   }
+
+  // OVERVIEW2 COMPONENT
+  .Overview2 {
+    margin: 0 auto;
+    margin-top: 95px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 25px;
+    height: 50vh;
+
+    h1 {
+      font-size: 42px;
+      font-weight: 400;
+      color: rgb(55, 55, 55);
+    }
+
+    p {
+      margin: 20px 0 35px 0;
+      padding: 0 40px;
+
+      .Overview2-Link {
+        text-decoration: none;
+        color: #02a8a8;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .Overview2-Games {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .Overview2-Game {
+        width: 20%;
+        img {
+          filter: invert(50%) sepia(10%) saturate(3150%) hue-rotate(130deg)
+            brightness(95%) contrast(85%);
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // OVERVIEW3 COMPONENT
+  .Overview3 {
+    height: 200vh;
+    border: 2px solid red;
+    background: red;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -87,6 +140,27 @@
           img {
             width: 88%;
           }
+        }
+      }
+    }
+
+    .Overview2 {
+      .Overview2-Games {
+        justify-content: center;
+        .Overview2-Game {
+          width: 25%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Overview-Container {
+    .Overview2 {
+      .Overview2-Games {
+        .Overview2-Game {
+          width: 33.3333%;
         }
       }
     }
@@ -110,6 +184,24 @@
         .Register-Button {
           font-size: 16px;
           padding: 15px 30px;
+        }
+      }
+    }
+
+    .Overview2 {
+      padding: 0 10px;
+
+      h1 {
+        font-size: 35px;
+      }
+
+      p {
+        font-size: 13.5px;
+      }
+
+      .Overview2-Games {
+        .Overview2-Game {
+          width: 50%;
         }
       }
     }

@@ -62,7 +62,7 @@
 
 .Overview-Container .Overview1 .Overview1-Bottom {
   width: 100%;
-  margin-top: 35px;
+  margin: 35px 0;
   background-image: url("../../../src/images/bg.png");
   background-position: center;
   background-size: cover;
@@ -84,12 +84,81 @@
   height: auto;
 }
 
+.Overview-Container .Overview2 {
+  margin: 0 auto;
+  margin-top: 95px;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 25px;
+  height: 50vh;
+}
+
+.Overview-Container .Overview2 h1 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #373737;
+}
+
+.Overview-Container .Overview2 p {
+  margin: 20px 0 35px 0;
+  padding: 0 40px;
+}
+
+.Overview-Container .Overview2 p .Overview2-Link {
+  text-decoration: none;
+  color: #02a8a8;
+}
+
+.Overview-Container .Overview2 p .Overview2-Link:hover {
+  text-decoration: underline;
+}
+
+.Overview-Container .Overview2 .Overview2-Games {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
+  width: 20%;
+}
+
+.Overview-Container .Overview2 .Overview2-Games .Overview2-Game img {
+  -webkit-filter: invert(50%) sepia(10%) saturate(3150%) hue-rotate(130deg) brightness(95%) contrast(85%);
+          filter: invert(50%) sepia(10%) saturate(3150%) hue-rotate(130deg) brightness(95%) contrast(85%);
+  width: 100%;
+}
+
+.Overview-Container .Overview3 {
+  height: 200vh;
+  border: 2px solid red;
+  background: red;
+}
+
 @media only screen and (max-width: 767px) {
   .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
     font-size: 32px;
   }
   .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
     width: 88%;
+  }
+  .Overview-Container .Overview2 .Overview2-Games {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
+    width: 33.3333%;
   }
 }
 
@@ -107,6 +176,18 @@
   .Overview-Container .Overview1 .Overview1-Top .Register-Button {
     font-size: 16px;
     padding: 15px 30px;
+  }
+  .Overview-Container .Overview2 {
+    padding: 0 10px;
+  }
+  .Overview-Container .Overview2 h1 {
+    font-size: 35px;
+  }
+  .Overview-Container .Overview2 p {
+    font-size: 13.5px;
+  }
+  .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=Overview.css.map */
