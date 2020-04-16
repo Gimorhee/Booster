@@ -86,7 +86,8 @@
 
 .Overview-Container .Overview2 {
   margin: 0 auto;
-  margin-top: 95px;
+  margin-top: 150px;
+  margin-bottom: 100px;
   text-align: center;
   width: 100%;
   max-width: 1200px;
@@ -134,9 +135,231 @@
 }
 
 .Overview-Container .Overview3 {
-  height: 200vh;
-  border: 2px solid red;
-  background: red;
+  height: 75vh;
+  background: #116979;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 80px;
+}
+
+.Overview-Container .Overview3 .Overview3-Left {
+  max-width: 625px;
+  padding: 15px;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.Overview-Container .Overview3 .Overview3-Left p {
+  color: #05dfd7;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Overview-Container .Overview3 .Overview3-Left h1,
+.Overview-Container .Overview3 .Overview3-Left h3,
+.Overview-Container .Overview3 .Overview3-Left span,
+.Overview-Container .Overview3 .Overview3-Left ul {
+  color: #f5f0e3;
+  font-weight: 500;
+}
+
+.Overview-Container .Overview3 .Overview3-Left h1 {
+  font-size: 38px;
+  margin: 20px 0;
+  font-weight: 800;
+}
+
+.Overview-Container .Overview3 .Overview3-Left h3 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.Overview-Container .Overview3 .Overview3-Left ul li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.Overview-Container .Overview3 .Overview3-Left span {
+  display: block;
+  margin: 25px 0;
+  margin-bottom: 50px;
+}
+
+.Overview-Container .Overview3 .Overview3-Left .Trial-Button {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  background: #02a8a8;
+  border: none;
+  border-radius: 4px;
+  padding: 17px 35px;
+  color: #fff;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+}
+
+.Overview-Container .Overview3 .Overview3-Left .Trial-Button:focus {
+  outline: none;
+}
+
+.Overview-Container .Overview3 .Overview3-Left .Trial-Button:hover {
+  background: #3a4858;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card {
+  position: relative;
+  width: 31%;
+  color: #f5f0e3;
+  padding: 10px 25px 50px;
+  border-radius: 10px;
+  min-height: 500px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Svg {
+  height: 130px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Svg img {
+  position: absolute;
+  right: 10px;
+  display: block;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Devider {
+  position: absolute;
+  left: 0%;
+  top: 33%;
+  right: 0%;
+  bottom: auto;
+  width: 100%;
+  height: 3px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Rewards-Devider {
+  background: #58508d;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Pro-Devider {
+  background: #00c1c0;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Thin-Devider {
+  top: 50%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card span {
+  display: block;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card h1 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 35px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Option .Rewards-Check {
+  -webkit-filter: invert(50%) sepia(10%) saturate(500%) hue-rotate(100deg) brightness(80%) contrast(55%);
+          filter: invert(50%) sepia(10%) saturate(500%) hue-rotate(100deg) brightness(80%) contrast(55%);
+  margin-right: 15px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Option .Pro-Check {
+  margin-right: 15px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options span {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.Overview-Container .Overview3 .Rewards-Plan {
+  background: #6ba8a9;
+}
+
+.Overview-Container .Overview3 .Pro-Plan {
+  background: #14868c;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Overview-Container .Overview3 {
+    padding: 50px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h1 {
+    font-size: 34px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h3 {
+    font-size: 20px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left ul {
+    font-size: 15px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .Overview-Container .Overview3 {
+    padding: 80px 110px;
+    height: 200vh;
+  }
+  .Overview-Container .Overview3 .Overview3-Left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left p {
+    font-size: 22px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h1 {
+    font-size: 40px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h3 {
+    font-size: 22px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left ul {
+    font-size: 17px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left span {
+    font-size: 17px;
+  }
+  .Overview-Container .Overview3 .Overview3-Plan-Card {
+    width: 100%;
+    margin-bottom: 35px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -146,6 +369,9 @@
   .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
     width: 88%;
   }
+  .Overview-Container .Overview2 {
+    margin-top: 85px;
+  }
   .Overview-Container .Overview2 .Overview2-Games {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -154,11 +380,32 @@
   .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
     width: 25%;
   }
+  .Overview-Container .Overview3 {
+    padding: 60px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
     width: 33.3333%;
+  }
+  .Overview-Container .Overview3 {
+    padding: 40px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left p {
+    font-size: 20px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h1 {
+    font-size: 35px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h3 {
+    font-size: 20px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left ul {
+    font-size: 15.5px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left span {
+    font-size: 15.5px;
   }
 }
 
@@ -179,6 +426,7 @@
   }
   .Overview-Container .Overview2 {
     padding: 0 10px;
+    height: 85vh;
   }
   .Overview-Container .Overview2 h1 {
     font-size: 35px;
@@ -188,6 +436,9 @@
   }
   .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
     width: 50%;
+  }
+  .Overview-Container .Overview3 {
+    height: 260vh;
   }
 }
 /*# sourceMappingURL=Overview.css.map */
