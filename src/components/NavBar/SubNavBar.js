@@ -11,10 +11,21 @@ export const SubNavBar = () => {
     delay: 600,
   });
 
+  const onClick = () => {
+    console.log("x", window.location.pathname);
+  };
+
   return (
     <animated.div style={props} className="SubNavBar">
       <div className="Inner-Container">
-        <Link className="SubNav-Link" to="/">
+        <Link
+          className={
+            window.location.pathname == "/"
+              ? "SubNav-Link Home-Link"
+              : "SubNav-Link"
+          }
+          to="/"
+        >
           <i class="fab fa-bootstrap SubNav-Logo"></i>
           <span>Overview</span>
         </Link>

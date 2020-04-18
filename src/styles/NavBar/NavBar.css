@@ -88,6 +88,10 @@
           box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 31px 0px;
 }
 
+.SubNavBar .Home-Link {
+  border-bottom: 3px solid #02a8a8;
+}
+
 .SubNavBar .Inner-Container {
   width: 100%;
   height: 100%;

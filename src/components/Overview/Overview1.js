@@ -21,13 +21,6 @@ export const Overview1 = () => {
     config: { duration: 1000 },
   });
 
-  const bottomProps2 = useSpring({
-    from: { opacity: 0 },
-    to: { opacity: 1 },
-    delay: 1200,
-    config: { duration: 1000 },
-  });
-
   return (
     <div className="Overview1">
       <animated.div style={topProps} className="Overview1-Top">
@@ -43,10 +36,10 @@ export const Overview1 = () => {
           Create Account
         </Link>
       </animated.div>
-      <animated.div style={bottomProps2} className="Overview1-Bottom">
-        <animated.div style={bottomProps1} className="Overview1-Bottom-Inner">
+      <animated.div style={bottomProps1} className="Overview1-Bottom">
+        <div className="Overview1-Bottom-Inner">
           <img src={image} alt="Laptop-Image" />
-        </animated.div>
+        </div>
       </animated.div>
     </div>
   );
