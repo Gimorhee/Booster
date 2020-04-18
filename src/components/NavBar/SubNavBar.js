@@ -11,16 +11,12 @@ export const SubNavBar = () => {
     delay: 600,
   });
 
-  const onClick = () => {
-    console.log("x", window.location.pathname);
-  };
-
   return (
     <animated.div style={props} className="SubNavBar">
       <div className="Inner-Container">
         <Link
           className={
-            window.location.pathname == "/"
+            window.location.pathname === "/"
               ? "SubNav-Link Home-Link"
               : "SubNav-Link"
           }

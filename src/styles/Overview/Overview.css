@@ -86,7 +86,7 @@
 
 .Overview-Container .Overview2 {
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 140px;
   margin-bottom: 100px;
   text-align: center;
   width: 100%;
@@ -102,7 +102,7 @@
 }
 
 .Overview-Container .Overview2 p {
-  margin: 20px 0 35px 0;
+  margin: 20px 0 45px 0;
   padding: 0 40px;
 }
 
@@ -135,7 +135,7 @@
 }
 
 .Overview-Container .Overview3 {
-  height: 75vh;
+  height: 85vh;
   background: #116979;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,6 +313,161 @@
   background: #14868c;
 }
 
+.Overview-Container .Overview4 {
+  height: 120vh;
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Overview-Container .Overview4 h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #373737;
+  margin-top: 145px;
+  padding: 0 15px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 20px 80px 80px 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon {
+  position: relative;
+  height: 275px;
+  width: 275px;
+  margin: 25px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon:hover {
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon:hover .Overview4-Detail {
+  height: 100%;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail {
+  position: absolute;
+  bottom: 0;
+  height: 0%;
+  width: 100%;
+  background: #20b89e;
+  -webkit-transition: 0.7s ease-in-out all;
+  transition: 0.7s ease-in-out all;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail .Detail-Content {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail .Detail-Content h3,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail .Detail-Content p {
+  color: #fff;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail .Detail-Content h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Detail .Detail-Content p {
+  font-size: 13.5px;
+  font-weight: 400;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Privacy,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Powerful,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Secure,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Transparent,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Reliable,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Generous {
+  width: 120px;
+  height: 100px;
+  background-image: url("../../../src/images/logos.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Privacy span,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Powerful span,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Secure span,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Transparent span,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Reliable span,
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Generous span {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 500;
+  color: #373737;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Privacy {
+  background-position: 0px -250px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Powerful {
+  background-position: -150px -250px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Secure {
+  background-position: 0px -375px;
+  width: 150px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Transparent {
+  background-position: -150px -375px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Reliable {
+  background-position: 0px -500px;
+}
+
+.Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Generous {
+  background-position: -150px -500px;
+}
+
 @media only screen and (max-width: 1200px) {
   .Overview-Container .Overview3 {
     padding: 50px;
@@ -328,6 +483,9 @@
   }
   .Overview-Container .Overview3 .Overview3-Left span {
     font-size: 15px;
+  }
+  .Overview-Container .Overview4 .Overview4-Icons {
+    padding: 10px 30px 30px 30px;
   }
 }
 
@@ -360,6 +518,19 @@
     width: 100%;
     margin-bottom: 35px;
   }
+  .Overview-Container .Overview4 .Overview4-Icons {
+    padding: 10px 30px 30px 30px;
+  }
+  .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 976px) {
+  .Overview-Container .Overview4 {
+    height: 140vh;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -382,6 +553,19 @@
   }
   .Overview-Container .Overview3 {
     padding: 60px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .Overview-Container .Overview4 {
+    height: 265vh;
+  }
+  .Overview-Container .Overview4 .Overview4-Icons {
+    padding: 10px 30px 30px 30px;
+  }
+  .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon {
+    height: 275px;
+    width: 275px;
   }
 }
 
@@ -439,6 +623,12 @@
   }
   .Overview-Container .Overview3 {
     height: 260vh;
+  }
+  .Overview-Container .Overview4 {
+    height: 330vh;
+  }
+  .Overview-Container .Overview4 h1 {
+    font-size: 35.5px;
   }
 }
 /*# sourceMappingURL=Overview.css.map */

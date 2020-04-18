@@ -75,7 +75,7 @@
   // OVERVIEW2 COMPONENT
   .Overview2 {
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-bottom: 100px;
     text-align: center;
     width: 100%;
@@ -90,7 +90,7 @@
     }
 
     p {
-      margin: 20px 0 35px 0;
+      margin: 20px 0 45px 0;
       padding: 0 40px;
 
       .Overview2-Link {
@@ -121,7 +121,7 @@
 
   // OVERVIEW3 COMPONENT
   .Overview3 {
-    height: 75vh;
+    height: 85vh;
     background: #116979;
     display: flex;
     flex-wrap: wrap;
@@ -287,6 +287,139 @@
       background: #14868c;
     }
   }
+
+  // OVERVIEW 4 COMPONENT
+  .Overview4 {
+    height: 120vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 400;
+      color: rgb(55, 55, 55);
+      margin-top: 145px;
+      padding: 0 15px;
+    }
+
+    .Overview4-Icons {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      padding: 20px 80px 80px 80px;
+      justify-content: center;
+
+      .Overview4-Icon {
+        position: relative;
+
+        height: 275px;
+        width: 275px;
+        margin: 25px;
+
+        &:hover {
+          border: 1px solid #dbdbdb;
+          border-radius: 7px;
+
+          .Overview4-Detail {
+            height: 100%;
+          }
+        }
+
+        .Overview4-Detail {
+          position: absolute;
+          bottom: 0;
+          height: 0%;
+          width: 100%;
+          background: #20b89e;
+          transition: 0.7s ease-in-out all;
+          overflow: hidden;
+          border-radius: 7px;
+
+          .Detail-Content {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3,
+            p {
+              color: #fff;
+            }
+
+            h3 {
+              font-size: 16px;
+              font-weight: 500;
+              margin-bottom: 15px;
+            }
+
+            p {
+              font-size: 13.5px;
+              font-weight: 400;
+            }
+          }
+        }
+
+        .Overview4-Privacy,
+        .Overview4-Powerful,
+        .Overview4-Secure,
+        .Overview4-Transparent,
+        .Overview4-Reliable,
+        .Overview4-Generous {
+          width: 120px;
+          height: 100px;
+          background-image: url("../../../src/images/logos.png");
+
+          background-repeat: no-repeat;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+
+          transform: translate(-50%, -50%);
+
+          span {
+            position: absolute;
+            left: 50%;
+            top: 100%;
+
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(55, 55, 55);
+          }
+        }
+
+        .Overview4-Privacy {
+          background-position: 0px -250px;
+        }
+
+        .Overview4-Powerful {
+          background-position: -150px -250px;
+        }
+
+        .Overview4-Secure {
+          background-position: 0px -375px;
+          width: 150px;
+        }
+
+        .Overview4-Transparent {
+          background-position: -150px -375px;
+        }
+
+        .Overview4-Reliable {
+          background-position: 0px -500px;
+        }
+
+        .Overview4-Generous {
+          background-position: -150px -500px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -310,6 +443,12 @@
         span {
           font-size: 15px;
         }
+      }
+    }
+
+    .Overview4 {
+      .Overview4-Icons {
+        padding: 10px 30px 30px 30px;
       }
     }
   }
@@ -352,6 +491,25 @@
         margin-bottom: 35px;
       }
     }
+
+    .Overview4 {
+      .Overview4-Icons {
+        padding: 10px 30px 30px 30px;
+
+        .Overview4-Icon {
+          height: 250px;
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 976px) {
+  .Overview-Container {
+    .Overview4 {
+      height: 140vh;
+    }
   }
 }
 
@@ -385,6 +543,23 @@
 
     .Overview3 {
       padding: 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .Overview-Container {
+    .Overview4 {
+      height: 265vh;
+
+      .Overview4-Icons {
+        padding: 10px 30px 30px 30px;
+
+        .Overview4-Icon {
+          height: 275px;
+          width: 275px;
+        }
+      }
     }
   }
 }
@@ -468,6 +643,14 @@
 
     .Overview3 {
       height: 260vh;
+    }
+
+    .Overview4 {
+      height: 330vh;
+
+      h1 {
+        font-size: 35.5px;
+      }
     }
   }
 }
