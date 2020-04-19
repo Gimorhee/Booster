@@ -453,6 +453,84 @@
       }
     }
   }
+
+  //OVERVIEW 5 COMPONENT
+  .Overview5 {
+    background: #2a3440;
+    height: 85vh;
+
+    padding: 120px 80px;
+
+    h4 {
+      color: #27caaf;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 42px;
+      font-weight: 900;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    .Overview5-Steps {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 100px;
+
+      .Overview5-Step {
+        width: 25%;
+        padding-right: 35px;
+        color: #fff;
+
+        span {
+          margin-top: 15px;
+          margin-bottom: 30px;
+          display: block;
+          background: #27caaf;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 800;
+          font-size: 18px;
+        }
+
+        h5 {
+          font-size: 17px;
+          font-weight: 700;
+          margin-bottom: 30px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .Overview5-Button {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      background: #27caaf;
+      border: none;
+      border-radius: 4px;
+      padding: 18px 30px;
+      color: #fff;
+      transition: 0.8s all;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        background: #415163;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -483,6 +561,10 @@
       .Overview4-Icons {
         padding: 10px 30px 30px 30px;
       }
+    }
+
+    .Overview5 {
+      height: 88vh;
     }
   }
 }
@@ -535,6 +617,10 @@
         }
       }
     }
+
+    .Overview5 {
+      padding: 100px 60px;
+    }
   }
 }
 
@@ -553,6 +639,25 @@
 
     .Overview4 {
       height: 140vh;
+    }
+
+    .Overview5 {
+      height: 105vh;
+      .Overview5-Steps {
+        margin-bottom: 70px;
+        .Overview5-Step {
+          width: 50%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 842px) {
+  .Overview-Container {
+    .Overview5 {
+      height: 108vh;
     }
   }
 }
@@ -612,6 +717,24 @@
         }
       }
     }
+
+    .Overview5 {
+      height: 150vh;
+      text-align: center;
+      .Overview5-Steps {
+        margin-bottom: 70px;
+        .Overview5-Step {
+          width: 100%;
+          margin-bottom: 35px;
+          padding-right: 0;
+
+          .Step-Container {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -656,6 +779,26 @@
         }
       }
       padding: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 564px) {
+  .Overview-Container {
+    .Overview5 {
+      height: 155vh;
+
+      h1 {
+        font-size: 38px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .Overview-Container {
+    .Overview5 {
+      height: 160vh;
     }
   }
 }
@@ -720,6 +863,14 @@
 
       h1 {
         font-size: 35.5px;
+      }
+    }
+
+    .Overview5 {
+      height: 230vh;
+
+      h1 {
+        font-size: 42px;
       }
     }
   }

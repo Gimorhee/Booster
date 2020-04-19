@@ -1,20 +1,21 @@
 import React, { Fragment } from "react";
-import spinner from "./spinner.gif";
+import spinner from "./Bean-Eater.gif";
+
+import "../../App.css";
 
 const Spinner = () => {
   return (
     <Fragment>
-      <img
-        src={spinner}
-        style={{
-          width: "70px",
-          margin: "auto",
-          paddingTop: "17rem",
-          display: "block",
-          backgoundColor: "#f0f2f5",
-        }}
-        alt="Loading..."
-      />
+      <div className="Loading-Container">
+        <img
+          className="Loading-Spinner"
+          src={spinner}
+          style={{
+            width: "300px",
+          }}
+          alt="Loading..."
+        />
+      </div>
     </Fragment>
   );
 };
