@@ -15,6 +15,12 @@ import lol from "../../images/games/lol.png";
 import overwatch from "../../images/games/overwatch.png";
 import pubg from "../../images/games/pubg.png";
 
+// PARTNERS
+import asus from "../../images/partners/asus.svg";
+import gigabyte from "../../images/partners/gigabyte.svg";
+import linksys from "../../images/partners/linksys.svg";
+import msi from "../../images/partners/msi.svg";
+
 export const Overview2 = () => {
   const ComponentToTrack = ({ isVisible }) => {
     const textProps = useSpring({
@@ -28,6 +34,13 @@ export const Overview2 = () => {
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
       delay: 1200,
+      config: { duration: 900 },
+    });
+
+    const partnerProps = useSpring({
+      from: { opacity: 0 },
+      to: { opacity: isVisible ? 1 : 0 },
+      delay: 1800,
       config: { duration: 900 },
     });
 
@@ -74,6 +87,24 @@ export const Overview2 = () => {
           </div>
           <div className="Overview2-Game">
             <img src={pubg} alt="" />
+          </div>
+        </animated.div>
+        <animated.div style={partnerProps}>
+          <p className="Partners-p">Trusted By Leading Partners</p>
+          <div className="Overview2-Partners">
+            <div className="Overview2-Partner">
+              <img src={asus} alt="" />
+            </div>
+            <div className="Overview2-Partner">
+              <img src={gigabyte} alt="" />
+            </div>
+
+            <div className="Overview2-Partner">
+              <img src={linksys} alt="" />
+            </div>
+            <div className="Overview2-Partner">
+              <img src={msi} alt="" />
+            </div>
           </div>
         </animated.div>
       </div>

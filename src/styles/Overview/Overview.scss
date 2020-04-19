@@ -75,13 +75,16 @@
   // OVERVIEW2 COMPONENT
   .Overview2 {
     margin: 0 auto;
-    margin-top: 140px;
-    margin-bottom: 100px;
     text-align: center;
     width: 100%;
-    max-width: 1200px;
-    padding: 0 25px;
-    height: 50vh;
+    padding: 80px;
+    padding-top: 70px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 
     h1 {
       font-size: 42px;
@@ -107,6 +110,7 @@
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      max-width: 1200px;
 
       .Overview2-Game {
         width: 20%;
@@ -114,6 +118,35 @@
           filter: invert(50%) sepia(10%) saturate(3150%) hue-rotate(130deg)
             brightness(95%) contrast(85%);
           width: 100%;
+        }
+      }
+    }
+
+    .Partners-p {
+      margin-top: 60px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .Overview2-Partners {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      width: 100%;
+      max-width: 1100px;
+      height: 70px;
+
+      .Overview2-Partner {
+        display: flex;
+        align-items: center;
+        width: 15%;
+        padding: 10px;
+
+        img {
+          width: 100%;
+          height: 25px;
+          filter: invert(100%) brightness(75%);
         }
       }
     }
@@ -458,7 +491,7 @@
   .Overview-Container {
     .Overview3 {
       padding: 80px 110px;
-      height: 200vh;
+      height: 210vh;
 
       .Overview3-Left {
         width: 100%;
@@ -507,6 +540,17 @@
 
 @media only screen and (max-width: 976px) {
   .Overview-Container {
+    .Overview2 {
+      margin-bottom: 30px;
+      padding: 60px;
+      .Overview2-Games {
+        justify-content: center;
+        .Overview2-Game {
+          width: 25%;
+        }
+      }
+    }
+
     .Overview4 {
       height: 140vh;
     }
@@ -532,11 +576,18 @@
     }
 
     .Overview2 {
-      margin-top: 85px;
+      height: 100vh;
+      padding: 40px;
       .Overview2-Games {
         justify-content: center;
         .Overview2-Game {
-          width: 25%;
+          width: 33.33333%;
+        }
+      }
+
+      .Overview2-Partners {
+        .Overview2-Partner {
+          width: 18%;
         }
       }
     }
@@ -567,14 +618,22 @@
 @media only screen and (max-width: 600px) {
   .Overview-Container {
     .Overview2 {
+      height: 120vh;
       .Overview2-Games {
         .Overview2-Game {
-          width: 33.3333%;
+          width: 50%;
+        }
+      }
+
+      .Overview2-Partners {
+        .Overview2-Partner {
+          width: 25%;
         }
       }
     }
 
     .Overview3 {
+      height: 215vh;
       .Overview3-Left {
         p {
           font-size: 20px;
@@ -605,7 +664,6 @@
   .Overview-Container {
     .Overview1 {
       .Overview1-Top {
-        padding: 45px 40px 35px;
         .Overview1-Header {
           font-size: 28px;
           line-height: 50px;
@@ -624,7 +682,7 @@
 
     .Overview2 {
       padding: 0 10px;
-      height: 85vh;
+      height: 130vh;
 
       h1 {
         font-size: 35px;
@@ -637,6 +695,18 @@
       .Overview2-Games {
         .Overview2-Game {
           width: 50%;
+        }
+      }
+
+      .Partners-p {
+        margin-top: 50px;
+        margin-bottom: 0;
+      }
+
+      .Overview2-Partners {
+        padding: 0 25px;
+        .Overview2-Partner {
+          width: 25%;
         }
       }
     }
