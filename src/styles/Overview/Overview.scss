@@ -506,7 +506,8 @@
         }
 
         p {
-          font-size: 15px;
+          font-size: 15.5px;
+          font-weight: 400;
         }
       }
     }
@@ -528,6 +529,55 @@
 
       &:hover {
         background: #415163;
+      }
+    }
+  }
+
+  //OVERVIEW 6 COMPONENT
+  .Overview6 {
+    height: 70vh;
+    background: #f0f2f5;
+
+    padding: 120px 80px;
+
+    h4 {
+      color: #02a8a8;
+    }
+
+    h1 {
+      color: rgb(55, 55, 55);
+      font-size: 42px;
+      font-weight: 900;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    .Overview6-Testimonianls {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+
+      .Overview6-Testimonial {
+        width: 25%;
+        padding-right: 25px;
+        color: rgb(55, 55, 55);
+
+        p {
+          font-size: 18px;
+          font-weight: 500;
+          margin-top: 20px;
+          margin-bottom: 30px;
+        }
+
+        span {
+          font-weight: 800;
+          font-size: 17px;
+        }
+
+        img {
+          filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg)
+            brightness(85%) contrast(80%);
+        }
       }
     }
   }
@@ -565,6 +615,10 @@
 
     .Overview5 {
       height: 88vh;
+    }
+
+    .Overview6 {
+      height: 75vh;
     }
   }
 }
@@ -651,6 +705,17 @@
         }
       }
     }
+
+    .Overview6 {
+      height: 95vh;
+      padding: 120px 60px;
+      .Overview6-Testimonianls {
+        .Overview6-Testimonial {
+          width: 50%;
+          margin-bottom: 70px;
+        }
+      }
+    }
   }
 }
 
@@ -703,6 +768,22 @@
   }
 }
 
+@media only screen and (max-width: 762px) {
+  .Overview-Container {
+    .Overview6 {
+      height: 100vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 744px) {
+  .Overview-Container {
+    .Overview5 {
+      height: 115vh;
+    }
+  }
+}
+
 @media only screen and (max-width: 676px) {
   .Overview-Container {
     .Overview4 {
@@ -719,7 +800,7 @@
     }
 
     .Overview5 {
-      height: 150vh;
+      height: 155vh;
       text-align: center;
       .Overview5-Steps {
         margin-bottom: 70px;
@@ -734,6 +815,26 @@
           }
         }
       }
+    }
+
+    .Overview6 {
+      height: 145vh;
+      text-align: center;
+      .Overview6-Testimonianls {
+        .Overview6-Testimonial {
+          width: 100%;
+          margin-bottom: 70px;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .Overview-Container {
+    .Overview6 {
+      height: 150vh;
     }
   }
 }
@@ -786,11 +887,21 @@
 @media only screen and (max-width: 564px) {
   .Overview-Container {
     .Overview5 {
-      height: 155vh;
-
       h1 {
         font-size: 38px;
       }
+    }
+
+    .Overview6 {
+      height: 155vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .Overview-Container {
+    .Overview5 {
+      height: 165vh;
     }
   }
 }
@@ -798,7 +909,7 @@
 @media only screen and (max-width: 505px) {
   .Overview-Container {
     .Overview5 {
-      height: 160vh;
+      height: 168vh;
     }
   }
 }
@@ -867,10 +978,17 @@
     }
 
     .Overview5 {
-      height: 230vh;
+      height: 240vh;
 
       h1 {
         font-size: 42px;
+      }
+    }
+
+    .Overview6 {
+      height: 235vh;
+      h1 {
+        font-size: 40px;
       }
     }
   }

@@ -11,6 +11,7 @@ import { HowToUse } from "./components/HowToUse/HowToUse";
 import { Games } from "./components/Games/Games";
 import { Pricing } from "./components/Pricing/Pricing";
 import { Extensions } from "./components/Extensions/Extensions";
+import { Footer } from "./components/Footer/Footer";
 
 import Spinner from "./components/Spinner/Spinner";
 
@@ -56,6 +57,7 @@ function App() {
             <Route exact path="/pricing" component={Pricing} />
             <Route exact path="/extensions" component={Extensions} />
           </Switch>
+          <Footer />
         </Fragment>
       ) : (
         <Spinner />

@@ -581,7 +581,8 @@
 }
 
 .Overview-Container .Overview5 .Overview5-Steps .Overview5-Step p {
-  font-size: 15px;
+  font-size: 15.5px;
+  font-weight: 400;
 }
 
 .Overview-Container .Overview5 .Overview5-Button {
@@ -605,6 +606,56 @@
   background: #415163;
 }
 
+.Overview-Container .Overview6 {
+  height: 70vh;
+  background: #f0f2f5;
+  padding: 120px 80px;
+}
+
+.Overview-Container .Overview6 h4 {
+  color: #02a8a8;
+}
+
+.Overview-Container .Overview6 h1 {
+  color: #373737;
+  font-size: 42px;
+  font-weight: 900;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.Overview-Container .Overview6 .Overview6-Testimonianls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial {
+  width: 25%;
+  padding-right: 25px;
+  color: #373737;
+}
+
+.Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial span {
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial img {
+  -webkit-filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(85%) contrast(80%);
+          filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(85%) contrast(80%);
+}
+
 @media only screen and (max-width: 1200px) {
   .Overview-Container .Overview3 {
     padding: 50px;
@@ -626,6 +677,9 @@
   }
   .Overview-Container .Overview5 {
     height: 88vh;
+  }
+  .Overview-Container .Overview6 {
+    height: 75vh;
   }
 }
 
@@ -696,6 +750,14 @@
     width: 50%;
     margin-bottom: 30px;
   }
+  .Overview-Container .Overview6 {
+    height: 95vh;
+    padding: 120px 60px;
+  }
+  .Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial {
+    width: 50%;
+    margin-bottom: 70px;
+  }
 }
 
 @media only screen and (max-width: 842px) {
@@ -731,6 +793,18 @@
   }
 }
 
+@media only screen and (max-width: 762px) {
+  .Overview-Container .Overview6 {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 744px) {
+  .Overview-Container .Overview5 {
+    height: 115vh;
+  }
+}
+
 @media only screen and (max-width: 676px) {
   .Overview-Container .Overview4 {
     height: 265vh;
@@ -743,7 +817,7 @@
     width: 275px;
   }
   .Overview-Container .Overview5 {
-    height: 150vh;
+    height: 155vh;
     text-align: center;
   }
   .Overview-Container .Overview5 .Overview5-Steps {
@@ -761,6 +835,21 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .Overview-Container .Overview6 {
+    height: 145vh;
+    text-align: center;
+  }
+  .Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial {
+    width: 100%;
+    margin-bottom: 70px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .Overview-Container .Overview6 {
+    height: 150vh;
   }
 }
 
@@ -796,17 +885,23 @@
 }
 
 @media only screen and (max-width: 564px) {
-  .Overview-Container .Overview5 {
-    height: 155vh;
-  }
   .Overview-Container .Overview5 h1 {
     font-size: 38px;
+  }
+  .Overview-Container .Overview6 {
+    height: 155vh;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .Overview-Container .Overview5 {
+    height: 165vh;
   }
 }
 
 @media only screen and (max-width: 505px) {
   .Overview-Container .Overview5 {
-    height: 160vh;
+    height: 168vh;
   }
 }
 
@@ -855,10 +950,16 @@
     font-size: 35.5px;
   }
   .Overview-Container .Overview5 {
-    height: 230vh;
+    height: 240vh;
   }
   .Overview-Container .Overview5 h1 {
     font-size: 42px;
+  }
+  .Overview-Container .Overview6 {
+    height: 235vh;
+  }
+  .Overview-Container .Overview6 h1 {
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=Overview.css.map */
