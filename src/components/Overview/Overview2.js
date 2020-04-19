@@ -112,7 +112,7 @@ export const Overview2 = () => {
   };
 
   return (
-    <TrackVisibility partialVisibility once>
+    <TrackVisibility partialVisibility tag="p" once>
       <ComponentToTrack />
     </TrackVisibility>
   );
