@@ -79,12 +79,13 @@
     width: 100%;
     padding: 80px;
     padding-top: 70px;
-    height: 95vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 
     h1 {
       font-size: 42px;
@@ -154,14 +155,14 @@
 
   // OVERVIEW3 COMPONENT
   .Overview3 {
-    height: 85vh;
+    height: auto;
     background: #116979;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    padding: 80px;
+    padding: 160px 80px;
 
     .Overview3-Left {
       max-width: 625px;
@@ -323,12 +324,13 @@
 
   // OVERVIEW 4 COMPONENT
   .Overview4 {
-    height: 120vh;
+    height: auto;
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 40px 0;
 
     h1 {
       font-size: 40px;
@@ -457,9 +459,8 @@
   //OVERVIEW 5 COMPONENT
   .Overview5 {
     background: #2a3440;
-    height: 85vh;
-
-    padding: 120px 80px;
+    height: auto;
+    padding: 150px 80px;
 
     h4 {
       color: #27caaf;
@@ -535,10 +536,10 @@
 
   //OVERVIEW 6 COMPONENT
   .Overview6 {
-    height: 70vh;
+    height: auto;
     background: #f0f2f5;
 
-    padding: 120px 80px;
+    padding: 150px 80px;
 
     h4 {
       color: #02a8a8;
@@ -586,7 +587,7 @@
 @media only screen and (max-width: 1200px) {
   .Overview-Container {
     .Overview3 {
-      padding: 50px;
+      padding: 160px 50px;
 
       .Overview3-Left {
         h1 {
@@ -608,17 +609,7 @@
     }
 
     .Overview4 {
-      .Overview4-Icons {
-        padding: 10px 30px 30px 30px;
-      }
-    }
-
-    .Overview5 {
-      height: 88vh;
-    }
-
-    .Overview6 {
-      height: 75vh;
+      margin: 20px 0;
     }
   }
 }
@@ -627,7 +618,6 @@
   .Overview-Container {
     .Overview3 {
       padding: 80px 110px;
-      height: 210vh;
 
       .Overview3-Left {
         width: 100%;
@@ -673,7 +663,7 @@
     }
 
     .Overview5 {
-      padding: 100px 60px;
+      padding: 140px 60px;
     }
   }
 }
@@ -692,11 +682,10 @@
     }
 
     .Overview4 {
-      height: 140vh;
+      margin: 40px 0;
     }
 
     .Overview5 {
-      height: 105vh;
       .Overview5-Steps {
         margin-bottom: 70px;
         .Overview5-Step {
@@ -707,22 +696,13 @@
     }
 
     .Overview6 {
-      height: 95vh;
-      padding: 120px 60px;
+      padding: 150px 60px;
       .Overview6-Testimonianls {
         .Overview6-Testimonial {
           width: 50%;
           margin-bottom: 70px;
         }
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 842px) {
-  .Overview-Container {
-    .Overview5 {
-      height: 108vh;
     }
   }
 }
@@ -746,8 +726,8 @@
     }
 
     .Overview2 {
-      height: 100vh;
       padding: 40px;
+      margin-bottom: 100px;
       .Overview2-Games {
         justify-content: center;
         .Overview2-Game {
@@ -763,23 +743,7 @@
     }
 
     .Overview3 {
-      padding: 60px;
-    }
-  }
-}
-
-@media only screen and (max-width: 762px) {
-  .Overview-Container {
-    .Overview6 {
-      height: 100vh;
-    }
-  }
-}
-
-@media only screen and (max-width: 744px) {
-  .Overview-Container {
-    .Overview5 {
-      height: 115vh;
+      padding: 150px 60px;
     }
   }
 }
@@ -787,8 +751,6 @@
 @media only screen and (max-width: 676px) {
   .Overview-Container {
     .Overview4 {
-      height: 265vh;
-
       .Overview4-Icons {
         padding: 10px 30px 30px 30px;
 
@@ -800,7 +762,6 @@
     }
 
     .Overview5 {
-      height: 155vh;
       text-align: center;
       .Overview5-Steps {
         margin-bottom: 70px;
@@ -818,7 +779,6 @@
     }
 
     .Overview6 {
-      height: 145vh;
       text-align: center;
       .Overview6-Testimonianls {
         .Overview6-Testimonial {
@@ -831,18 +791,9 @@
   }
 }
 
-@media only screen and (max-width: 651px) {
-  .Overview-Container {
-    .Overview6 {
-      height: 150vh;
-    }
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .Overview-Container {
     .Overview2 {
-      height: 120vh;
       .Overview2-Games {
         .Overview2-Game {
           width: 50%;
@@ -857,7 +808,8 @@
     }
 
     .Overview3 {
-      height: 215vh;
+      padding: 150px 40px;
+
       .Overview3-Left {
         p {
           font-size: 20px;
@@ -879,7 +831,6 @@
           font-size: 15.5px;
         }
       }
-      padding: 40px;
     }
   }
 }
@@ -890,26 +841,6 @@
       h1 {
         font-size: 38px;
       }
-    }
-
-    .Overview6 {
-      height: 155vh;
-    }
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .Overview-Container {
-    .Overview5 {
-      height: 165vh;
-    }
-  }
-}
-
-@media only screen and (max-width: 505px) {
-  .Overview-Container {
-    .Overview5 {
-      height: 168vh;
     }
   }
 }
@@ -936,7 +867,6 @@
 
     .Overview2 {
       padding: 0 10px;
-      height: 130vh;
 
       h1 {
         font-size: 35px;
@@ -966,27 +896,23 @@
     }
 
     .Overview3 {
-      height: 260vh;
+      padding: 120px 40px;
     }
 
     .Overview4 {
-      height: 330vh;
-
       h1 {
         font-size: 35.5px;
       }
     }
 
     .Overview5 {
-      height: 240vh;
-
       h1 {
         font-size: 42px;
       }
     }
 
     .Overview6 {
-      height: 235vh;
+      padding-bottom: 100px;
       h1 {
         font-size: 40px;
       }

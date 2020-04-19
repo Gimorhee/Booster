@@ -90,7 +90,7 @@
   width: 100%;
   padding: 80px;
   padding-top: 70px;
-  height: 95vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +104,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .Overview-Container .Overview2 h1 {
@@ -186,7 +187,7 @@
 }
 
 .Overview-Container .Overview3 {
-  height: 85vh;
+  height: auto;
   background: #116979;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,10 +197,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 100%;
-  padding: 80px;
+  padding: 160px 80px;
 }
 
 .Overview-Container .Overview3 .Overview3-Left {
@@ -365,7 +367,7 @@
 }
 
 .Overview-Container .Overview4 {
-  height: 120vh;
+  height: auto;
   text-align: center;
   width: 100%;
   display: -webkit-box;
@@ -378,6 +380,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 40px 0;
 }
 
 .Overview-Container .Overview4 h1 {
@@ -521,8 +524,8 @@
 
 .Overview-Container .Overview5 {
   background: #2a3440;
-  height: 85vh;
-  padding: 120px 80px;
+  height: auto;
+  padding: 150px 80px;
 }
 
 .Overview-Container .Overview5 h4 {
@@ -607,9 +610,9 @@
 }
 
 .Overview-Container .Overview6 {
-  height: 70vh;
+  height: auto;
   background: #f0f2f5;
-  padding: 120px 80px;
+  padding: 150px 80px;
 }
 
 .Overview-Container .Overview6 h4 {
@@ -658,7 +661,7 @@
 
 @media only screen and (max-width: 1200px) {
   .Overview-Container .Overview3 {
-    padding: 50px;
+    padding: 160px 50px;
   }
   .Overview-Container .Overview3 .Overview3-Left h1 {
     font-size: 34px;
@@ -672,21 +675,14 @@
   .Overview-Container .Overview3 .Overview3-Left span {
     font-size: 15px;
   }
-  .Overview-Container .Overview4 .Overview4-Icons {
-    padding: 10px 30px 30px 30px;
-  }
-  .Overview-Container .Overview5 {
-    height: 88vh;
-  }
-  .Overview-Container .Overview6 {
-    height: 75vh;
+  .Overview-Container .Overview4 {
+    margin: 20px 0;
   }
 }
 
 @media only screen and (max-width: 1075px) {
   .Overview-Container .Overview3 {
     padding: 80px 110px;
-    height: 210vh;
   }
   .Overview-Container .Overview3 .Overview3-Left {
     width: 100%;
@@ -720,7 +716,7 @@
     width: 250px;
   }
   .Overview-Container .Overview5 {
-    padding: 100px 60px;
+    padding: 140px 60px;
   }
 }
 
@@ -738,10 +734,7 @@
     width: 25%;
   }
   .Overview-Container .Overview4 {
-    height: 140vh;
-  }
-  .Overview-Container .Overview5 {
-    height: 105vh;
+    margin: 40px 0;
   }
   .Overview-Container .Overview5 .Overview5-Steps {
     margin-bottom: 70px;
@@ -751,18 +744,11 @@
     margin-bottom: 30px;
   }
   .Overview-Container .Overview6 {
-    height: 95vh;
-    padding: 120px 60px;
+    padding: 150px 60px;
   }
   .Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial {
     width: 50%;
     margin-bottom: 70px;
-  }
-}
-
-@media only screen and (max-width: 842px) {
-  .Overview-Container .Overview5 {
-    height: 108vh;
   }
 }
 
@@ -774,8 +760,8 @@
     width: 88%;
   }
   .Overview-Container .Overview2 {
-    height: 100vh;
     padding: 40px;
+    margin-bottom: 100px;
   }
   .Overview-Container .Overview2 .Overview2-Games {
     -webkit-box-pack: center;
@@ -789,26 +775,11 @@
     width: 18%;
   }
   .Overview-Container .Overview3 {
-    padding: 60px;
-  }
-}
-
-@media only screen and (max-width: 762px) {
-  .Overview-Container .Overview6 {
-    height: 100vh;
-  }
-}
-
-@media only screen and (max-width: 744px) {
-  .Overview-Container .Overview5 {
-    height: 115vh;
+    padding: 150px 60px;
   }
 }
 
 @media only screen and (max-width: 676px) {
-  .Overview-Container .Overview4 {
-    height: 265vh;
-  }
   .Overview-Container .Overview4 .Overview4-Icons {
     padding: 10px 30px 30px 30px;
   }
@@ -817,7 +788,6 @@
     width: 275px;
   }
   .Overview-Container .Overview5 {
-    height: 155vh;
     text-align: center;
   }
   .Overview-Container .Overview5 .Overview5-Steps {
@@ -837,7 +807,6 @@
             justify-content: center;
   }
   .Overview-Container .Overview6 {
-    height: 145vh;
     text-align: center;
   }
   .Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial {
@@ -847,16 +816,7 @@
   }
 }
 
-@media only screen and (max-width: 651px) {
-  .Overview-Container .Overview6 {
-    height: 150vh;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  .Overview-Container .Overview2 {
-    height: 120vh;
-  }
   .Overview-Container .Overview2 .Overview2-Games .Overview2-Game {
     width: 50%;
   }
@@ -864,8 +824,7 @@
     width: 25%;
   }
   .Overview-Container .Overview3 {
-    height: 215vh;
-    padding: 40px;
+    padding: 150px 40px;
   }
   .Overview-Container .Overview3 .Overview3-Left p {
     font-size: 20px;
@@ -888,21 +847,6 @@
   .Overview-Container .Overview5 h1 {
     font-size: 38px;
   }
-  .Overview-Container .Overview6 {
-    height: 155vh;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  .Overview-Container .Overview5 {
-    height: 165vh;
-  }
-}
-
-@media only screen and (max-width: 505px) {
-  .Overview-Container .Overview5 {
-    height: 168vh;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -919,7 +863,6 @@
   }
   .Overview-Container .Overview2 {
     padding: 0 10px;
-    height: 130vh;
   }
   .Overview-Container .Overview2 h1 {
     font-size: 35px;
@@ -941,22 +884,16 @@
     width: 25%;
   }
   .Overview-Container .Overview3 {
-    height: 260vh;
-  }
-  .Overview-Container .Overview4 {
-    height: 330vh;
+    padding: 120px 40px;
   }
   .Overview-Container .Overview4 h1 {
     font-size: 35.5px;
-  }
-  .Overview-Container .Overview5 {
-    height: 240vh;
   }
   .Overview-Container .Overview5 h1 {
     font-size: 42px;
   }
   .Overview-Container .Overview6 {
-    height: 235vh;
+    padding-bottom: 100px;
   }
   .Overview-Container .Overview6 h1 {
     font-size: 40px;
