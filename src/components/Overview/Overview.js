@@ -5,6 +5,7 @@ import { Overview3 } from "./Overview3";
 import { Overview4 } from "./Overview4";
 import { Overview5 } from "./Overview5";
 import { Overview6 } from "./Overview6";
+import { Footer } from "../Footer/Footer";
 
 import "../../styles/Overview/Overview.css";
 
@@ -17,6 +18,7 @@ export const Overview = () => {
       <Overview4 />
       <Overview5 />
       <Overview6 />
+      <Footer />
     </div>
   );
 };

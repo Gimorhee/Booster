@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+.Footer {
+  width: 100%;
+  background: #252525;
+  height: auto;
+}
+
+.Footer .Footer-Inner {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  padding: 0 5%;
+}
+
+.Footer .Footer-Inner .Footer-Content {
+  width: 20%;
+  color: #dadada;
+  padding: 50px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 300px;
+  -webkit-transition: 0.8s ease-in-out all;
+  transition: 0.8s ease-in-out all;
+}
+
+.Footer .Footer-Inner .Footer-Content:nth-child(odd) {
+  border-right: 1px solid #363636;
+  border-left: 1px solid #363636;
+}
+
+.Footer .Footer-Inner .Footer-Content:hover {
+  background: #02a8a8;
+}
+
+.Footer .Footer-Inner .Footer-Content .Content-Icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.Footer .Footer-Inner .Footer-Content a {
+  color: #dadada;
+  text-decoration: none;
+  text-align: center;
+}
+/*# sourceMappingURL=Footer.css.map */
