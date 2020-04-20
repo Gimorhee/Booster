@@ -78,7 +78,7 @@
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 31px 0px;
 
-  .Home-Link {
+  .Current-Link {
     border-bottom: 3px solid #02a8a8;
   }
 
@@ -107,7 +107,6 @@
 
       &:focus {
         color: rgb(23, 26, 34);
-        border-bottom: 3px solid #02a8a8;
       }
 
       .SubNav-Logo {

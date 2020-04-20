@@ -17,7 +17,7 @@ export const SubNavBar = () => {
         <Link
           className={
             window.location.pathname === "/"
-              ? "SubNav-Link Home-Link"
+              ? "SubNav-Link Current-Link"
               : "SubNav-Link"
           }
           to="/"
@@ -25,23 +25,58 @@ export const SubNavBar = () => {
           <i class="fab fa-bootstrap SubNav-Logo"></i>
           <span>Overview</span>
         </Link>
-        <Link className="SubNav-Link" to="/features">
+        <Link
+          className={
+            window.location.pathname === "/features"
+              ? "SubNav-Link Current-Link"
+              : "SubNav-Link"
+          }
+          to="/features"
+        >
           <i className="fas fa-atom SubNav-Logo"></i>
           <span>Features</span>
         </Link>
-        <Link className="SubNav-Link" to="/howtouse">
+        <Link
+          className={
+            window.location.pathname === "/howtouse"
+              ? "SubNav-Link Current-Link"
+              : "SubNav-Link"
+          }
+          to="/howtouse"
+        >
           <i className="fas fa-question-circle SubNav-Logo"></i>
           <span>Directions</span>
         </Link>
-        <Link className="SubNav-Link" to="/games">
-          <i className="fas fa-dice-d6 SubNav-Logo"></i>
+        <Link
+          className={
+            window.location.pathname === "/games"
+              ? "SubNav-Link Current-Link"
+              : "SubNav-Link"
+          }
+          to="/games"
+        >
+          <i className="fas fa-gamepad SubNav-Logo"></i>
           <span>Games</span>
         </Link>
-        <Link className="SubNav-Link" to="/pricing">
+        <Link
+          className={
+            window.location.pathname === "/pricing"
+              ? "SubNav-Link Current-Link"
+              : "SubNav-Link"
+          }
+          to="/pricing"
+        >
           <i className="fas fa-hand-holding-usd SubNav-Logo"></i>
           <span>Pricing</span>
         </Link>
-        <Link className="SubNav-Link" to="/extensions">
+        <Link
+          className={
+            window.location.pathname === "/extensions"
+              ? "SubNav-Link Current-Link"
+              : "SubNav-Link"
+          }
+          to="/extensions"
+        >
           <i className="fas fa-puzzle-piece SubNav-Logo"></i>
           <span>Extensions</span>
         </Link>
