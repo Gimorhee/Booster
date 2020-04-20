@@ -9,21 +9,21 @@ export const Overview5 = () => {
     const headerProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 600,
+      delay: 750,
       config: { duration: 900 },
     });
 
     const stepProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1200,
+      delay: 1400,
       config: { duration: 900 },
     });
 
     const buttonProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1800,
+      delay: 2000,
       config: { duration: 900 },
     });
 

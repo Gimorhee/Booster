@@ -12,21 +12,21 @@ export const Overview3 = () => {
     const leftProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 700,
+      delay: 800,
       config: { duration: 1000 },
     });
 
     const rewardsProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1300,
+      delay: 1400,
       config: { duration: 1000 },
     });
 
     const proProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1900,
+      delay: 2000,
       config: { duration: 1000 },
     });
 
