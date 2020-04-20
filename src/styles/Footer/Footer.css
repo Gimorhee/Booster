@@ -1,23 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 .Footer {
   width: 100%;
   background: #252525;
   height: auto;
 }
 
-.Footer .Footer-Inner {
+.Footer .Footer-Top {
+  width: 100%;
+  background: #252525;
+  height: auto;
+  border-bottom: 1px solid #363636;
+  padding: 25px;
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.Footer .Footer-Top .Footer-Signup p {
+  color: #02a8a8;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.Footer .Footer-Top .Footer-Signup form {
+  margin: 15px;
+}
+
+.Footer .Footer-Top .Footer-Signup form input {
+  border: none;
+  border: 3px solid #dadada;
+  background: #dadada;
+  padding: 10px;
+  width: 250px;
+}
+
+.Footer .Footer-Top .Footer-Signup form input:focus {
+  outline: none;
+  border: 3px solid #02a8a8;
+  -webkit-box-shadow: 0 0 5px #02a8a8;
+          box-shadow: 0 0 5px #02a8a8;
+}
+
+.Footer .Footer-Top .Footer-Signup form .Signup-Button {
+  border: none;
+  border: 3px solid #dadada;
+  padding: 10px;
+  background: #dadada;
+  font-family: "Share Tech Mono", monospace;
+  cursor: pointer;
+}
+
+.Footer .Footer-Top .Footer-Signup form .Signup-Button:focus {
+  outline: none;
+}
+
+.Footer .Footer-Top .Footer-Signup form .Signup-Button:hover {
+  background: #02a8a8;
+  border: 3px solid #02a8a8;
+  -webkit-box-shadow: 0 0 5px #02a8a8;
+          box-shadow: 0 0 5px #02a8a8;
+  color: #dadada;
+}
+
+.Footer .Footer-Bottom {
   width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   height: auto;
-  padding: 0 5%;
 }
 
-.Footer .Footer-Inner .Footer-Content {
-  width: 20%;
+.Footer .Footer-Bottom .Footer-Content {
+  width: 16.6666666%;
   color: #dadada;
-  padding: 50px 15px;
+  padding: 100px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,28 +90,113 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 300px;
-  -webkit-transition: 0.8s ease-in-out all;
-  transition: 0.8s ease-in-out all;
+  -webkit-transition: 1s ease-in-out all;
+  transition: 1s ease-in-out all;
+  text-align: center;
+  border: 1px solid #363636;
 }
 
-.Footer .Footer-Inner .Footer-Content:nth-child(odd) {
-  border-right: 1px solid #363636;
-  border-left: 1px solid #363636;
-}
-
-.Footer .Footer-Inner .Footer-Content:hover {
+.Footer .Footer-Bottom .Footer-Content:hover {
   background: #02a8a8;
 }
 
-.Footer .Footer-Inner .Footer-Content .Content-Icon {
+.Footer .Footer-Bottom .Footer-Content .Content-Icon {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.Footer .Footer-Inner .Footer-Content a {
+.Footer .Footer-Bottom .Footer-Content .Content-Link {
   color: #dadada;
   text-decoration: none;
   text-align: center;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.Footer .Footer-Bottom .Footer-Content .Content-Link:hover {
+  color: #393e46;
+}
+
+.Footer .Footer-Bottom .Footer-Content .Content-SNS {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Footer .Footer-Bottom .Footer-Content .Content-SNS i {
+  font-size: 25px;
+  margin: 5px 7px;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.Footer .Footer-Bottom .Footer-Content .Content-SNS i:hover {
+  color: #393e46;
+  cursor: pointer;
+}
+
+.Footer .Footer-Bottom .Last-Content {
+  color: #dadada;
+  font-size: 11px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 1600px) {
+  .Footer .Footer-Bottom .Footer-Content {
+    padding: 75px 15px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .Footer .Footer-Bottom .Footer-Content {
+    padding: 45px 15px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .Footer .Footer-Bottom .Footer-Content {
+    width: 33.333333%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Footer .Footer-Bottom .Footer-Content .Content-Icon {
+    font-size: 35px;
+  }
+  .Footer .Footer-Bottom .Footer-Content p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .Footer .Footer-Bottom .Footer-Content {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .Footer .Footer-Top .Footer-Signup p {
+    font-size: 16px;
+  }
+  .Footer .Footer-Top .Footer-Signup form input {
+    width: 200px;
+  }
+  .Footer .Footer-Bottom .Footer-Content {
+    padding: 50px 10px;
+  }
+  .Footer .Footer-Bottom .Footer-Content p {
+    font-size: 13px;
+  }
+  .Footer .Footer-Bottom .Footer-Content .Content-SNS {
+    margin-bottom: 5px;
+  }
+  .Footer .Footer-Bottom .Footer-Content .Content-SNS i {
+    margin: 5px;
+    font-size: 20px;
+  }
+  .Footer .Footer-Bottom .Last-Content {
+    font-size: 10px;
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

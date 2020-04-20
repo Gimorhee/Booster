@@ -615,7 +615,7 @@
   height: auto;
   background: #f0f2f5;
   padding: 150px 80px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .Overview-Container .Overview6 h4 {
@@ -658,8 +658,8 @@
 }
 
 .Overview-Container .Overview6 .Overview6-Testimonianls .Overview6-Testimonial img {
-  -webkit-filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(85%) contrast(80%);
-          filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(85%) contrast(80%);
+  -webkit-filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(100%) contrast(80%);
+          filter: invert(100%) sepia(100%) saturate(1550%) hue-rotate(130deg) brightness(100%) contrast(80%);
 }
 
 @media only screen and (max-width: 1200px) {
