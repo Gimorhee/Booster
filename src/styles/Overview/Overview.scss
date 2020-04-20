@@ -9,12 +9,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 80vh;
 
     .Overview1-Top {
       width: 100%;
       max-width: 1200px;
       padding: 65px 40px 35px;
       text-align: center;
+      height: auto;
 
       .Overview1-Header {
         display: block;
@@ -78,7 +80,7 @@
     text-align: center;
     width: 100%;
     padding: 80px;
-    padding-top: 70px;
+    padding-top: 60px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -550,7 +552,7 @@
       font-size: 42px;
       font-weight: 900;
       margin-top: 30px;
-      margin-bottom: 50px;
+      margin-bottom: 60px;
     }
 
     .Overview6-Testimonianls {

@@ -16,6 +16,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 80vh;
 }
 
 .Overview-Container .Overview1 .Overview1-Top {
@@ -23,6 +24,7 @@
   max-width: 1200px;
   padding: 65px 40px 35px;
   text-align: center;
+  height: auto;
 }
 
 .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
@@ -89,7 +91,7 @@
   text-align: center;
   width: 100%;
   padding: 80px;
-  padding-top: 70px;
+  padding-top: 60px;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,7 +626,7 @@
   font-size: 42px;
   font-weight: 900;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .Overview-Container .Overview6 .Overview6-Testimonianls {
