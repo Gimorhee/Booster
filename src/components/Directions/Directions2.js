@@ -14,7 +14,7 @@ export const Directions2 = () => {
     const bottomProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1400,
+      delay: 1500,
       config: { duration: 1000 },
     });
 

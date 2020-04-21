@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Overview1 } from "./Overview1";
 import { Overview2 } from "./Overview2";
 import { Overview3 } from "./Overview3";
@@ -10,6 +10,10 @@ import { Footer } from "../Footer/Footer";
 import "../../styles/Overview/Overview.css";
 
 export const Overview = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="Overview-Container">
       <Overview1 />
