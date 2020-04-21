@@ -24,7 +24,7 @@
 }
 
 .Directions-Container .Directions1 .Directions1-Top h1 {
-  font-size: 39px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 63px;
 }
@@ -34,6 +34,7 @@
   margin-top: 20px;
   max-width: 1200px;
   line-height: 1.5;
+  color: #353535;
 }
 
 .Directions-Container .Directions1 .Directions1-Bottom {
@@ -62,15 +63,97 @@
 }
 
 .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path .Path-Image img {
-  -webkit-filter: invert(40%) sepia(50%) saturate(2150%) hue-rotate(430deg) brightness(85%) contrast(65%);
-          filter: invert(40%) sepia(50%) saturate(2150%) hue-rotate(430deg) brightness(85%) contrast(65%);
+  -webkit-filter: invert(30%) sepia(60%) saturate(2150%) hue-rotate(430deg) brightness(85%) contrast(65%);
+          filter: invert(30%) sepia(60%) saturate(2150%) hue-rotate(430deg) brightness(85%) contrast(65%);
 }
 
 .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path h3 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 15px 0;
-  color: #09ad6e;
+  color: #02a8a8;
+}
+
+.Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path p {
+  color: #353535;
+}
+
+.Directions-Container .Directions2 {
+  height: auto;
+  padding: 50px;
+  margin-bottom: 150px;
+}
+
+.Directions-Container .Directions2 .Directions2-Top {
+  text-align: center;
+  line-height: 1.45;
+}
+
+.Directions-Container .Directions2 .Directions2-Top h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 63px;
+}
+
+.Directions-Container .Directions2 .Directions2-Top h1 strong {
+  color: #02a8a8;
+}
+
+.Directions-Container .Directions2 .Directions2-Top h3 {
+  color: #353535;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.Directions-Container .Directions2 .Directions2-Top span {
+  color: #353535;
+  display: block;
+  max-width: 800px;
+  font-size: 18px;
+  margin: auto;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step {
+  margin: 45px auto;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Left i {
+  color: #02a8a8;
+  font-size: 50px;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right {
+  width: 75%;
+  line-height: 1.45;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right h3 {
+  font-size: 22px;
+  color: #353535;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right span {
+  display: block;
+  font-size: 17px;
+}
+
+.Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
+  color: #02a8a8;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -103,7 +186,16 @@
     margin-bottom: 35px;
   }
   .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path p {
-    font-size: 15.5px;
+    font-size: 17px;
+  }
+  .Directions-Container .Directions2 .Directions2-Top span {
+    font-size: 17px;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right {
+    width: 80%;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right span {
+    font-size: 17px;
   }
 }
 
@@ -113,13 +205,45 @@
     line-height: 50px;
   }
   .Directions-Container .Directions1 .Directions1-Top p {
-    font-size: 14px;
+    font-size: 14.5px;
+  }
+  .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths {
+    padding: 0;
   }
   .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path h3 {
     font-size: 20px;
   }
   .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths .Directions1-Path p {
-    font-size: 14px;
+    font-size: 14.5px;
+  }
+  .Directions-Container .Directions2 {
+    padding: 0 25px;
+    margin-bottom: 120px;
+  }
+  .Directions-Container .Directions2 .Directions2-Top h1 {
+    font-size: 29px;
+    line-height: 50px;
+  }
+  .Directions-Container .Directions2 .Directions2-Top h3 {
+    font-size: 22px;
+  }
+  .Directions-Container .Directions2 .Directions2-Top span {
+    font-size: 14.5px;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Left i {
+    font-size: 40px;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right {
+    width: 80%;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right h3 {
+    font-size: 20px;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps .Directions2-Step .Step-Right span {
+    font-size: 14.5px;
+  }
+  .Directions-Container .Directions2 .Directions2-Bottom .Directions2-Steps p {
+    font-size: 14.5px;
   }
 }
 /*# sourceMappingURL=Directions.css.map */

@@ -8,21 +8,21 @@ export const Features2 = () => {
     const topProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 700,
+      delay: 600,
       config: { duration: 900 },
     });
 
     const middleProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 1400,
+      delay: 1300,
       config: { duration: 900 },
     });
 
     const bottomProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 2000,
+      delay: 1900,
       config: { duration: 1000 },
     });
 

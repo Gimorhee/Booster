@@ -36,6 +36,7 @@
   font-size: 16px;
   line-height: 18px;
   margin-top: 20px;
+  color: #353535;
 }
 
 .Features-Container .Features1 .Features1-Bottom {
@@ -75,6 +76,7 @@
 .Features-Container .Features1 .Features1-Bottom .Features1-Features .Features1-Feature p {
   line-height: 1.7;
   font-size: 15px;
+  color: #353535;
 }
 
 .Features-Container .Features1 .Features1-Bottom .Features1-Features .Features1-Feature p span {
@@ -116,6 +118,7 @@
 
 .Features-Container .Features2 p {
   margin-bottom: 80px;
+  color: #353535;
 }
 
 .Features-Container .Features2 .Features2-Button {

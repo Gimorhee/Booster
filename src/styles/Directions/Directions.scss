@@ -5,6 +5,7 @@
   background: #f0f2f5;
   height: auto;
 
+  // DIRECTIONS1 COMPONENT
   .Directions1 {
     .Directions1-Top {
       color: rgb(55, 55, 55);
@@ -16,7 +17,7 @@
       text-align: center;
 
       h1 {
-        font-size: 39px;
+        font-size: 40px;
         font-weight: 400;
         line-height: 63px;
       }
@@ -26,6 +27,7 @@
         margin-top: 20px;
         max-width: 1200px;
         line-height: 1.5;
+        color: #353535;
       }
     }
 
@@ -47,17 +49,103 @@
 
           .Path-Image {
             img {
-              filter: invert(40%) sepia(50%) saturate(2150%) hue-rotate(430deg)
+              filter: invert(30%) sepia(60%) saturate(2150%) hue-rotate(430deg)
                 brightness(85%) contrast(65%);
             }
           }
 
           h3 {
             font-size: 22px;
-            font-weight: 600;
+            font-weight: 500;
             margin: 15px 0;
-            color: #09ad6e;
+            color: #02a8a8;
           }
+
+          p {
+            color: #353535;
+          }
+        }
+      }
+    }
+  }
+
+  // DIRECTIONS2 COMPONENT
+  .Directions2 {
+    height: auto;
+    padding: 50px;
+    margin-bottom: 150px;
+
+    .Directions2-Top {
+      text-align: center;
+      line-height: 1.45;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 63px;
+
+        strong {
+          color: #02a8a8;
+        }
+      }
+
+      h3 {
+        color: #353535;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 8px;
+      }
+
+      span {
+        color: #353535;
+        display: block;
+        max-width: 800px;
+        font-size: 18px;
+        margin: auto;
+      }
+    }
+
+    .Directions2-Bottom {
+      .Directions2-Steps {
+        .Directions2-Step {
+          margin: 45px auto;
+          max-width: 800px;
+
+          display: flex;
+          justify-content: space-between;
+
+          .Step-Left {
+            i {
+              color: #02a8a8;
+              font-size: 50px;
+            }
+          }
+
+          .Step-Right {
+            width: 75%;
+            line-height: 1.45;
+
+            h3 {
+              font-size: 22px;
+              color: #353535;
+              font-weight: 600;
+              margin-bottom: 20px;
+            }
+
+            span {
+              display: block;
+              font-size: 17px;
+            }
+          }
+        }
+
+        p {
+          max-width: 800px;
+          margin: auto;
+          font-size: 20px;
+          color: #02a8a8;
+          font-weight: 500;
         }
       }
     }
@@ -118,7 +206,29 @@
             margin-bottom: 35px;
 
             p {
-              font-size: 15.5px;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+
+    .Directions2 {
+      .Directions2-Top {
+        span {
+          font-size: 17px;
+        }
+      }
+
+      .Directions2-Bottom {
+        .Directions2-Steps {
+          .Directions2-Step {
+            .Step-Right {
+              width: 80%;
+
+              span {
+                font-size: 17px;
+              }
             }
           }
         }
@@ -137,19 +247,68 @@
         }
 
         p {
-          font-size: 14px;
+          font-size: 14.5px;
         }
       }
 
       .Directions1-Bottom {
         .Directions1-Paths {
+          padding: 0;
           .Directions1-Path {
             h3 {
               font-size: 20px;
             }
             p {
-              font-size: 14px;
+              font-size: 14.5px;
             }
+          }
+        }
+      }
+    }
+
+    .Directions2 {
+      padding: 0 25px;
+      margin-bottom: 120px;
+
+      .Directions2-Top {
+        h1 {
+          font-size: 29px;
+          line-height: 50px;
+        }
+
+        h3 {
+          font-size: 22px;
+        }
+
+        span {
+          font-size: 14.5px;
+        }
+      }
+
+      .Directions2-Bottom {
+        .Directions2-Steps {
+          .Directions2-Step {
+            .Step-Left {
+              i {
+                font-size: 40px;
+              }
+            }
+
+            .Step-Right {
+              width: 80%;
+
+              h3 {
+                font-size: 20px;
+              }
+
+              span {
+                font-size: 14.5px;
+              }
+            }
+          }
+
+          p {
+            font-size: 14.5px;
           }
         }
       }
