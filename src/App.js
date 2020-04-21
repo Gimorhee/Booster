@@ -7,7 +7,7 @@ import { Overview } from "./components/Overview/Overview";
 import { Register } from "./components/User/Register";
 import { Login } from "./components/User/Login";
 import { Features } from "./components/Features/Features";
-import { HowToUse } from "./components/HowToUse/HowToUse";
+import { Directions } from "./components/Directions/Directions";
 import { Games } from "./components/Games/Games";
 import { Pricing } from "./components/Pricing/Pricing";
 import { Extensions } from "./components/Extensions/Extensions";
@@ -40,7 +40,7 @@ function App() {
               "/",
               "/overview",
               "/features",
-              "/howtouse",
+              "/directions",
               "/games",
               "/pricing",
               "/extensions",
@@ -51,7 +51,7 @@ function App() {
             <Route exact path="/" component={Overview} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/features" component={Features} />
-            <Route exact path="/howtouse" component={HowToUse} />
+            <Route exact path="/directions" component={Directions} />
             <Route exact path="/games" component={Games} />
             <Route exact path="/pricing" component={Pricing} />
             <Route exact path="/extensions" component={Extensions} />

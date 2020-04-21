@@ -1,0 +1,158 @@
+.Directions-Container {
+  width: 100%;
+  position: absolute;
+  margin-top: 116px;
+  background: #f0f2f5;
+  height: auto;
+
+  .Directions1 {
+    .Directions1-Top {
+      color: rgb(55, 55, 55);
+      padding: 0 25px;
+      margin-top: 65px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+        font-size: 39px;
+        font-weight: 400;
+        line-height: 63px;
+      }
+
+      p {
+        line-height: 18px;
+        margin-top: 20px;
+        max-width: 1200px;
+        line-height: 1.5;
+      }
+    }
+
+    .Directions1-Bottom {
+      margin-top: 15px;
+      .Directions1-Paths {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px 150px;
+        margin-bottom: 100px;
+        justify-content: space-evenly;
+
+        .Directions1-Path {
+          padding: 15px;
+          width: 30%;
+          margin: 10px;
+          text-align: center;
+
+          .Path-Image {
+            img {
+              filter: invert(40%) sepia(50%) saturate(2150%) hue-rotate(430deg)
+                brightness(85%) contrast(65%);
+            }
+          }
+
+          h3 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 15px 0;
+            color: #09ad6e;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .Directions-Container {
+    .Directions1 {
+      .Directions1-Bottom {
+        .Directions1-Paths {
+          padding: 30px 70px;
+
+          .Directions1-Path {
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .Directions-Container {
+    .Directions1 {
+      .Directions1-Bottom {
+        .Directions1-Paths {
+          padding: 30px 50px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Directions-Container {
+    .Directions1 {
+      .Directions1-Bottom {
+        .Directions1-Paths {
+          padding: 30px 10px;
+
+          .Directions1-Path {
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Directions-Container {
+    .Directions1 {
+      .Directions1-Bottom {
+        .Directions1-Paths {
+          .Directions1-Path {
+            width: 75%;
+            margin-bottom: 35px;
+
+            p {
+              font-size: 15.5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Directions-Container {
+    .Directions1 {
+      .Directions1-Top {
+        h1 {
+          font-size: 28px;
+          line-height: 50px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .Directions1-Bottom {
+        .Directions1-Paths {
+          .Directions1-Path {
+            h3 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

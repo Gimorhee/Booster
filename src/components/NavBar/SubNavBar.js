@@ -38,11 +38,11 @@ export const SubNavBar = () => {
         </Link>
         <Link
           className={
-            window.location.pathname === "/howtouse"
+            window.location.pathname === "/directions"
               ? "SubNav-Link Current-Link"
               : "SubNav-Link"
           }
-          to="/howtouse"
+          to="/directions"
         >
           <i className="fas fa-question-circle SubNav-Logo"></i>
           <span>Directions</span>

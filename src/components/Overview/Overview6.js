@@ -83,6 +83,7 @@ export const Overview6 = () => {
       </div>
     );
   };
+
   return (
     <TrackVisibility partialVisibility tag="h4" once>
       <ComponentToTrack />
