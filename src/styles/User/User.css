@@ -306,8 +306,8 @@
   padding: 11px 22px;
   border-radius: 5px;
   cursor: pointer;
-  -webkit-transition: 0.3s all;
-  transition: 0.3s all;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 .Login-Container .Login-Inner .Login-Buttons button:focus {

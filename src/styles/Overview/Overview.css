@@ -51,6 +51,8 @@
   border-radius: 4px;
   padding: 17px 35px;
   color: #fff;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
 }
 
 .Overview-Container .Overview1 .Overview1-Top .Register-Button:focus {
