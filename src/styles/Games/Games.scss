@@ -1,0 +1,272 @@
+.Games-Container {
+  width: 100%;
+  position: absolute;
+  margin-top: 116px;
+  height: auto;
+  background: #2a3440;
+
+  .Games1 {
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 125px;
+    padding: 0 20px;
+
+    .Games-Top {
+      max-width: 1200px;
+      margin: auto;
+      padding: 50px 15px;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #27caaf;
+      }
+
+      p {
+        color: #dadada;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 45px;
+      }
+
+      .Games-Button {
+        text-decoration: none;
+        font-size: 18px;
+        background: #02a8a8;
+        border: none;
+        border-radius: 4px;
+        padding: 17px 35px;
+        color: #fff;
+        transition: 0.4s ease-in-out all;
+
+        &:focus {
+          outline: none;
+        }
+
+        &:hover {
+          background: #16817a;
+        }
+      }
+    }
+
+    .Games-Bottom {
+      max-width: 1500px;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      background: #364353;
+      border-radius: 15px;
+
+      .Header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #27caaf;
+
+        h1 {
+          font-weight: 900;
+          font-size: 35px;
+        }
+
+        span {
+          color: #dadada;
+          font-weight: 800;
+        }
+      }
+
+      .Supported-Games {
+        margin: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .Supported-Game {
+          width: calc(20% - 20px);
+          position: relative;
+          border-radius: 5px;
+          margin: 10px;
+
+          &:hover {
+            .Inner-Bg {
+              height: 95%;
+            }
+          }
+
+          .Inner-Bg {
+            border-radius: 5px;
+            position: absolute;
+            overflow: hidden;
+            width: 100%;
+            height: 0%;
+            bottom: 5%;
+            transition: 1s all;
+            background: #02a8a8;
+            opacity: 0.75;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+              font-size: 25px;
+              font-weight: 900;
+
+              .Game-Name {
+                color: #fff;
+                text-decoration: none;
+                transition: 1s all;
+                text-transform: uppercase;
+                padding: 0 5px;
+
+                &:hover {
+                  transform: scaleX(1.5);
+                }
+              }
+            }
+          }
+
+          img {
+            width: 100%;
+            border-radius: 5px;
+            height: 95%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Bottom {
+        .Supported-Games {
+          .Supported-Game {
+            width: calc(25% - 20px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Top {
+        h1 {
+          font-size: 38px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .Games-Button {
+          font-size: 17px;
+        }
+      }
+
+      .Games-Bottom {
+        .Header {
+          h1 {
+            font-size: 33px;
+          }
+
+          span {
+            font-size: 16px;
+          }
+        }
+        .Supported-Games {
+          .Supported-Game {
+            width: calc(33.3333% - 20px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Bottom {
+        .Header {
+          h1 {
+            font-size: 28px;
+          }
+
+          span {
+            font-size: 14px;
+          }
+        }
+        .Supported-Games {
+          .Supported-Game {
+            width: calc(50% - 20px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Bottom {
+        .Header {
+          h1 {
+            font-size: 23px;
+          }
+
+          span {
+            font-size: 12px;
+          }
+        }
+
+        .Supported-Games {
+          .Supported-Game {
+            width: calc(100%);
+
+            .Inner-Bg {
+              span {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Bottom {
+        .Header {
+          h1 {
+            font-size: 18px;
+          }
+
+          span {
+            font-size: 10px;
+          }
+        }
+
+        .Supported-Games {
+          .Supported-Game {
+            .Inner-Bg {
+              span {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

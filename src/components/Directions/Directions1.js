@@ -32,7 +32,7 @@ export const Directions1 = () => {
           </h1>
           <p>
             Booster is an <strong>optimized gaming booster.</strong> Read below
-            to see how Booster works and improves your gaming experience
+            to see how Booster works and improves your gaming experience.
           </p>
         </animated.div>
         <animated.div style={bottomProps} className="Directions1-Bottom">
