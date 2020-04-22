@@ -244,6 +244,9 @@
   .Directions-Container .Directions1 .Directions1-Top p {
     font-size: 14.5px;
   }
+  .Directions-Container .Directions1 .Directions1-Bottom {
+    margin-top: 25px;
+  }
   .Directions-Container .Directions1 .Directions1-Bottom .Directions1-Paths {
     padding: 0;
   }

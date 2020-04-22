@@ -1,0 +1,230 @@
+.Pricing-Container {
+  width: 100%;
+  position: absolute;
+  margin-top: 116px;
+  height: auto;
+  background: #2a3440;
+}
+
+.Pricing-Container .Pricing1 {
+  border: 2px solid yellow;
+  height: auto;
+  text-align: center;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 15px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #27caaf;
+  margin-bottom: 30px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top h3 {
+  color: #dadada;
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top h5 {
+  color: #27caaf;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button {
+  text-decoration: none;
+  font-size: 18px;
+  background: #02a8a8;
+  border: none;
+  border-radius: 4px;
+  padding: 17px 35px;
+  color: #fff;
+  -webkit-transition: 0.4s ease-in-out all;
+  transition: 0.4s ease-in-out all;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button:focus {
+  outline: none;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button:hover {
+  background: #16817a;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle {
+  color: red;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle select {
+  border: 2px solid red;
+  background: yellow;
+  color: blue;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right {
+  background: #364353;
+  color: #dadada;
+  border-radius: 8px;
+  margin: 15px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left h1,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right h1 {
+  font-size: 30px;
+  margin: 35px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+  text-align: left;
+  margin: auto;
+  width: 70%;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option i,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option i {
+  width: 20%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option span,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option span {
+  width: 65%;
+  font-size: 18px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Status,
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status {
+  margin-top: 45px;
+  height: 100px;
+  border-top: 2px solid #535252;
+  font-size: 30px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left {
+  border-top: 10px solid #d8b9c3;
+  width: 40%;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left h1 {
+  color: #d8b9c3;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option i {
+  color: #d8b9c3;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d8b9c3;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right {
+  width: 60%;
+  border-top: 10px solid #27caaf;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right h1 {
+  color: #27caaf;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option i {
+  color: #27caaf;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #27caaf;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status .Plan-Price {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status .Plan-Price h3 {
+  font-size: 20px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status .Plan-Price p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status button {
+  width: 50%;
+  border: none;
+  border-bottom-right-radius: 8px;
+  background: #27caaf;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+  font-size: 23px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status button:focus {
+  outline: none;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status button:hover {
+  background: #16817a;
+}
+/*# sourceMappingURL=Pricing.css.map */

@@ -37,7 +37,7 @@ export const Overview6 = () => {
             </div>
             <div className="Testimonial-Content">
               <p>
-                "I was suffering from playing games with bad pings but Booster
+                "I was suffering from playing games with bad ping but Booster
                 lowered my ping from 170ms to 55ms. Booster is the best!"
               </p>
               <span>-Danny, Canada</span>
@@ -61,8 +61,8 @@ export const Overview6 = () => {
             </div>
             <div className="Testimonial-Content">
               <p>
-                "I was suffering from playing games with bad pings but Booster
-                lowered my ping from 170ms to 55ms. Booster is the best!"
+                "I started using Booster because I always had connection issues,
+                but these issues are now completely gone. Thanks Booster team!"
               </p>
               <span>-Daniel, France</span>
             </div>
