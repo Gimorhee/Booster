@@ -7,15 +7,20 @@
 
   // DIRECTIONS1 COMPONENT
   .Directions1 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     .Directions1-Top {
       color: rgb(55, 55, 55);
       padding: 0 25px;
-      margin-top: 65px;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-
       h1 {
         font-size: 40px;
         font-weight: 400;
@@ -32,13 +37,11 @@
     }
 
     .Directions1-Bottom {
-      margin-top: 15px;
       .Directions1-Paths {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        padding: 30px 150px;
-        margin-bottom: 100px;
+        padding: 0 150px;
         justify-content: space-evenly;
 
         .Directions1-Path {
@@ -73,6 +76,7 @@
   .Directions2 {
     height: auto;
     padding: 50px;
+    padding-top: 15px;
     margin-bottom: 150px;
 
     .Directions2-Top {
@@ -155,6 +159,7 @@
 @media only screen and (max-width: 1500px) {
   .Directions-Container {
     .Directions1 {
+      height: auto;
       .Directions1-Bottom {
         .Directions1-Paths {
           padding: 30px 70px;
@@ -199,6 +204,16 @@
 @media only screen and (max-width: 767px) {
   .Directions-Container {
     .Directions1 {
+      .Directions1-Top {
+        h1 {
+          font-size: 35px;
+          line-height: 55px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
       .Directions1-Bottom {
         .Directions1-Paths {
           .Directions1-Path {
@@ -206,7 +221,7 @@
             margin-bottom: 35px;
 
             p {
-              font-size: 17px;
+              font-size: 16px;
             }
           }
         }
@@ -214,20 +229,38 @@
     }
 
     .Directions2 {
+      padding: 25px;
       .Directions2-Top {
+        h1 {
+          font-size: 35px;
+          line-height: 55px;
+        }
+
+        h3 {
+          font-size: 22px;
+        }
+
         span {
-          font-size: 17px;
+          font-size: 16px;
         }
       }
 
       .Directions2-Bottom {
         .Directions2-Steps {
+          p {
+            font-size: 18px;
+          }
+
           .Directions2-Step {
             .Step-Right {
               width: 80%;
 
+              h3 {
+                font-size: 21px;
+              }
+
               span {
-                font-size: 17px;
+                font-size: 16px;
               }
             }
           }

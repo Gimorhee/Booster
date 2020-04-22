@@ -7,7 +7,7 @@ export const Directions2 = () => {
     const topProps = useSpring({
       from: { opacity: 0 },
       to: { opacity: isVisible ? 1 : 0 },
-      delay: 700,
+      delay: 800,
       config: { duration: 1000 },
     });
 
@@ -114,7 +114,7 @@ export const Directions2 = () => {
   };
 
   return (
-    <TrackVisibility partialVisibility once>
+    <TrackVisibility partialVisibility tag="p" once>
       <ComponentToTrack />
     </TrackVisibility>
   );
