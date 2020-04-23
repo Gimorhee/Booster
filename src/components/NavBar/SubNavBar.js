@@ -71,14 +71,14 @@ export const SubNavBar = () => {
         </Link>
         <Link
           className={
-            window.location.pathname === "/extensions"
+            window.location.pathname === "/download"
               ? "SubNav-Link Current-Link"
               : "SubNav-Link"
           }
-          to="/extensions"
+          to="/download"
         >
-          <i className="fas fa-puzzle-piece SubNav-Logo"></i>
-          <span>Extensions</span>
+          <i className="fas fa-cloud-download-alt SubNav-Logo"></i>
+          <span>Download</span>
         </Link>
       </div>
     </animated.div>

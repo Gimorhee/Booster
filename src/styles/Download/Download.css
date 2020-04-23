@@ -1,0 +1,309 @@
+.Download-Container {
+  width: 100%;
+  position: absolute;
+  margin-top: 116px;
+  height: auto;
+  background: #2a3440;
+}
+
+.Download-Container .Download1 {
+  max-width: 1500px;
+  margin: auto;
+  padding: 60px 15px;
+  text-align: center;
+}
+
+.Download-Container .Download1 .Download1-Top {
+  padding: 15px;
+  color: #dadada;
+}
+
+.Download-Container .Download1 .Download1-Top .Booster-Logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Download-Container .Download1 .Download1-Top .Booster-Logo i {
+  font-size: 45px;
+  color: #27caaf;
+  margin-right: 25px;
+}
+
+.Download-Container .Download1 .Download1-Top .Booster-Logo span {
+  color: #27caaf;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+
+.Download-Container .Download1 .Download1-Top h1 {
+  font-size: 38px;
+  max-width: 1250px;
+  margin: auto;
+  font-weight: 400;
+  margin-bottom: 50px;
+  line-height: 1.3;
+}
+
+.Download-Container .Download1 .Download1-Top p {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.5;
+  margin-bottom: 55px;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #27caaf;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle h4 sup {
+  font-size: 0.01px;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #252525;
+  background: #dadada;
+  width: 225px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.9s all;
+  transition: 0.9s all;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install:hover {
+  background: #000;
+  color: #dadada;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install i {
+  font-size: 37px;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span {
+  font-size: 15.5px;
+  text-align: left;
+  margin: 0 15px;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span strong {
+  color: #079696;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle p {
+  margin-top: 10px;
+  color: #dadada;
+  font-size: 15px;
+  margin-bottom: 70px;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Middle p strong {
+  color: #27caaf;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Bottom {
+  width: 70%;
+  margin: auto;
+}
+
+.Download-Container .Download1 .Download1-Top .Download1-Bottom img {
+  width: 100%;
+}
+
+.Download-Container .Download2 {
+  max-width: 1200px;
+  margin: 70px auto;
+  margin-bottom: 120px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.Download-Container .Download2 h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #33b665;
+  margin-bottom: 30px;
+}
+
+.Download-Container .Download2 p {
+  color: #dadada;
+  line-height: 1.5;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.Download-Container .Download2 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  background: #309c59;
+  border: none;
+  border-radius: 4px;
+  padding: 17px 55px;
+  color: #fff;
+  -webkit-transition: 0.7s ease-in-out all;
+  transition: 0.7s ease-in-out all;
+}
+
+.Download-Container .Download2 a:focus {
+  outline: none;
+}
+
+.Download-Container .Download2 a:hover {
+  background: #195a32;
+}
+
+@media only screen and (max-width: 900px) {
+  .Download-Container .Download1 .Download1-Top .Booster-Logo i {
+    font-size: 42px;
+  }
+  .Download-Container .Download1 .Download1-Top .Booster-Logo span {
+    font-size: 23px;
+  }
+  .Download-Container .Download1 .Download1-Top h1 {
+    font-size: 35px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install i {
+    font-size: 34px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span {
+    font-size: 15px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Bottom {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Download-Container .Download1 .Download1-Top .Booster-Logo i {
+    font-size: 40px;
+  }
+  .Download-Container .Download1 .Download1-Top .Booster-Logo span {
+    font-size: 21px;
+  }
+  .Download-Container .Download1 .Download1-Top h1 {
+    font-size: 32px;
+  }
+  .Download-Container .Download1 .Download1-Top p {
+    font-size: 15.5px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle h4 {
+    font-size: 16px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install i {
+    font-size: 34px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span {
+    font-size: 15px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle p {
+    font-size: 14px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Bottom {
+    width: 90%;
+  }
+  .Download-Container .Download2 h1 {
+    font-size: 35px;
+  }
+  .Download-Container .Download2 p {
+    font-size: 15.5px;
+  }
+  .Download-Container .Download2 a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Download-Container .Download1 .Download1-Top h1 {
+    font-size: 29px;
+  }
+  .Download-Container .Download1 .Download1-Top p {
+    font-size: 15px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle h4 {
+    font-size: 15.5px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install i {
+    font-size: 32px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span {
+    font-size: 14.5px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle p {
+    font-size: 13.5px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Bottom {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Download-Container .Download1 .Download1-Top .Booster-Logo i {
+    font-size: 38px;
+  }
+  .Download-Container .Download1 .Download1-Top .Booster-Logo span {
+    font-size: 21px;
+  }
+  .Download-Container .Download1 .Download1-Top h1 {
+    font-size: 30px;
+  }
+  .Download-Container .Download1 .Download1-Top p {
+    font-size: 15px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle h4 {
+    font-size: 15.5px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install {
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install i {
+    font-size: 25px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle .Download1-Installs .Download1-Install span {
+    font-size: 13px;
+  }
+  .Download-Container .Download1 .Download1-Top .Download1-Middle p {
+    font-size: 13px;
+  }
+  .Download-Container .Download2 h1 {
+    font-size: 30px;
+  }
+  .Download-Container .Download2 p {
+    font-size: 15px;
+  }
+  .Download-Container .Download2 a {
+    font-size: 16.5px;
+  }
+}
+/*# sourceMappingURL=Download.css.map */

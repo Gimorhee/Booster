@@ -10,7 +10,7 @@ import { Features } from "./components/Features/Features";
 import { Directions } from "./components/Directions/Directions";
 import { Games } from "./components/Games/Games";
 import { Pricing } from "./components/Pricing/Pricing";
-import { Extensions } from "./components/Extensions/Extensions";
+import { Download } from "./components/Download/Download";
 
 import Spinner from "./components/Spinner/Spinner";
 
@@ -43,7 +43,7 @@ function App() {
               "/directions",
               "/games",
               "/pricing",
-              "/extensions",
+              "/download",
             ]}
             component={SubNavBar}
           />
@@ -54,7 +54,7 @@ function App() {
             <Route exact path="/directions" component={Directions} />
             <Route exact path="/games" component={Games} />
             <Route exact path="/pricing" component={Pricing} />
-            <Route exact path="/extensions" component={Extensions} />
+            <Route exact path="/download" component={Download} />
           </Switch>
         </Fragment>
       ) : (
