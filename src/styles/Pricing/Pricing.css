@@ -37,7 +37,7 @@
   color: #27caaf;
   text-transform: uppercase;
   font-size: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button {
@@ -61,13 +61,63 @@
 }
 
 .Pricing-Container .Pricing1 .Pricing1-Middle {
-  color: red;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 15px;
+  color: #dadada;
+  font-weight: 500;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #364353;
+  border-radius: 5px;
+  padding: 5px;
+  border-top: 5px solid #27caaf;
 }
 
-.Pricing-Container .Pricing1 .Pricing1-Middle select {
-  border: 2px solid red;
-  background: yellow;
-  color: blue;
+.Pricing-Container .Pricing1 .Pricing1-Middle h5 {
+  color: #27caaf;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle .Subscription-Plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle .Subscription-Plans .Subscription-Plan {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle .Subscription-Plans .Subscription-Plan label {
+  margin-bottom: 5px;
+}
+
+.Pricing-Container .Pricing1 .Pricing1-Middle .Subscription-Plans .Subscription-Plan select {
+  border: 2px solid #02a8a8;
+  background: #fff;
+  color: #02a8a8;
 }
 
 .Pricing-Container .Pricing1 .Pricing1-Bottom {
@@ -76,6 +126,7 @@
   display: flex;
   max-width: 1300px;
   margin: auto;
+  padding: 0 15px;
 }
 
 .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left,
@@ -226,5 +277,155 @@
 
 .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status button:hover {
   background: #16817a;
+}
+
+@media only screen and (max-width: 1235px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options,
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options,
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1035px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options,
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 985px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options,
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 100%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option span,
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option span {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left {
+    width: calc(100% - 30px);
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options {
+    width: 50%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right {
+    width: calc(100% - 30px);
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .Pricing-Container .Pricing1 .Pricing1-Top h1 {
+    font-size: 37px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top h3 {
+    font-size: 17px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top h5 {
+    font-size: 13.5px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .Pricing-Container .Pricing1 .Pricing1-Top h3 {
+    font-size: 14px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top h5 {
+    font-size: 12px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button {
+    font-size: 15px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options {
+    width: 60%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .Pricing-Container .Pricing1 .Pricing1-Bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options {
+    width: 70%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .Pricing-Container .Pricing1 .Pricing1-Top h1 {
+    font-size: 33px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top h3 {
+    font-size: 13.5px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top h5 {
+    font-size: 11.5px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Top .Pricing-Button {
+    font-size: 14px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Middle {
+    margin: 0 30px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options {
+    width: 90%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Left .Plan-Options .Plan-Option span {
+    font-size: 16px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options {
+    width: 100%;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Options .Plan-Option span {
+    width: 80%;
+    font-size: 16px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status .Plan-Price h3 {
+    font-size: 17px;
+  }
+  .Pricing-Container .Pricing1 .Pricing1-Bottom .Pricing1-Right .Plan-Status button {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=Pricing.css.map */
