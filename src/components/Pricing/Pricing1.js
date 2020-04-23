@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
@@ -53,9 +52,6 @@ export const Pricing1 = () => {
             Get started on Booster Free. Play Free or upgrade with Booster Pro.
           </h3>
           <h5>Save up to 50% with longer plans and more devices</h5>
-          <Link to="/register" className="Pricing-Button">
-            SIGN UP NOW
-          </Link>
         </animated.div>
         <animated.div style={middleProps} className="Pricing1-Middle">
           <h5>For Pro Plan Gamers:</h5>

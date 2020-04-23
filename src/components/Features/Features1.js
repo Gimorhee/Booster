@@ -102,6 +102,7 @@ export const Features1 = () => {
       </div>
     );
   };
+
   return (
     <TrackVisibility partialVisibility once>
       <ComponentToTrack />
