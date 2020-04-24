@@ -30,7 +30,7 @@
 .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
   display: block;
   font-size: 40px;
-  line-height: 63px;
+  line-height: 60px;
   color: #373737;
 }
 
@@ -74,6 +74,8 @@
 }
 
 .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+  margin: auto;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,8 +85,7 @@
 }
 
 .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
-  width: 60%;
-  display: block;
+  width: 100%;
   height: auto;
 }
 
@@ -665,6 +666,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+    width: 75%;
+  }
   .Overview-Container .Overview3 {
     padding: 160px 50px;
   }
@@ -726,6 +730,9 @@
 }
 
 @media only screen and (max-width: 976px) {
+  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+    width: 80%;
+  }
   .Overview-Container .Overview2 {
     margin-bottom: 30px;
     padding: 60px;
@@ -760,9 +767,10 @@
 @media only screen and (max-width: 767px) {
   .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
     font-size: 32px;
+    line-height: 52px;
   }
-  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner img {
-    width: 88%;
+  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+    width: 90%;
   }
   .Overview-Container .Overview2 {
     padding: 40px;
@@ -854,10 +862,10 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .Overview-Container .Overview1 .Overview1-Top .Overview1-Header {
     font-size: 28px;
-    line-height: 50px;
+    line-height: 45px;
   }
   .Overview-Container .Overview1 .Overview1-Top p {
     font-size: 13.5px;
@@ -865,6 +873,9 @@
   .Overview-Container .Overview1 .Overview1-Top .Register-Button {
     font-size: 16px;
     padding: 15px 30px;
+  }
+  .Overview-Container .Overview1 .Overview1-Bottom .Overview1-Bottom-Inner {
+    width: 100%;
   }
   .Overview-Container .Overview2 {
     padding: 0 10px;

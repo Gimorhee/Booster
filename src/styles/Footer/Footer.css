@@ -32,6 +32,7 @@
   background: #dadada;
   padding: 10px;
   width: 250px;
+  border-radius: none !important;
 }
 
 .Footer .Footer-Top .Footer-Signup form input:focus {

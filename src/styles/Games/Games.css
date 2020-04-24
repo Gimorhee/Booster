@@ -214,7 +214,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .Games-Container .Games1 .Games-Bottom .Header h1 {
     font-size: 18px;
   }
