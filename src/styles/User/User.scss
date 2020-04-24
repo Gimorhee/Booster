@@ -62,7 +62,7 @@
             }
           }
 
-          button {
+          a {
             width: 100%;
             background: #02a8a8;
             color: #fff;
@@ -78,6 +78,8 @@
             position: relative;
             box-shadow: 0 6px #347474;
             margin-bottom: 30px;
+            text-decoration: none;
+            text-align: center;
 
             &:hover {
               box-shadow: 0 4px #347474;

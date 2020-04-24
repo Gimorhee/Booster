@@ -17,6 +17,7 @@
       padding: 65px 40px 35px;
       text-align: center;
       height: auto;
+      margin-bottom: 10px;
 
       .Overview1-Header {
         display: block;
@@ -56,6 +57,7 @@
 
     .Overview1-Bottom {
       width: 100%;
+      height: auto;
       margin: 35px 0;
       background-image: url("../../../src/images/bg.png");
       background-position: center;
@@ -65,12 +67,9 @@
       .Overview1-Bottom-Inner {
         margin: auto;
         width: 65%;
-        display: flex;
-        justify-content: center;
 
         img {
           width: 100%;
-          height: auto;
         }
       }
     }
@@ -356,7 +355,7 @@
 
         height: 275px;
         width: 275px;
-        margin: 25px;
+        margin: 10px;
 
         &:hover {
           border: 1px solid #dbdbdb;
@@ -772,11 +771,9 @@
   .Overview-Container {
     .Overview4 {
       .Overview4-Icons {
-        padding: 10px 30px 30px 30px;
-
         .Overview4-Icon {
-          height: 275px;
-          width: 275px;
+          height: 250px;
+          width: 250px;
         }
       }
     }
@@ -852,12 +849,20 @@
         }
       }
     }
+
+    .Overview4-Icons {
+      .Overview4-Icon {
+        height: 250px;
+        width: 250px;
+      }
+    }
   }
 }
 
 @media only screen and (max-width: 564px) {
   .Overview-Container {
     .Overview5 {
+      padding: 140px 50px;
       h1 {
         font-size: 38px;
       }
@@ -885,8 +890,9 @@
       }
 
       .Overview1-Bottom {
+        margin-top: 10px;
         .Overview1-Bottom-Inner {
-          width: 100%;
+          width: 95%;
         }
       }
     }

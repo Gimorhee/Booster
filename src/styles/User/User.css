@@ -69,7 +69,7 @@
           box-shadow: 0 0 5px #02a8a8;
 }
 
-.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form button {
+.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form a {
   width: 100%;
   background: #02a8a8;
   color: #fff;
@@ -86,21 +86,23 @@
   -webkit-box-shadow: 0 6px #347474;
           box-shadow: 0 6px #347474;
   margin-bottom: 30px;
+  text-decoration: none;
+  text-align: center;
 }
 
-.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form button:hover {
+.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form a:hover {
   -webkit-box-shadow: 0 4px #347474;
           box-shadow: 0 4px #347474;
   top: 2px;
 }
 
-.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form button:active {
+.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form a:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   top: 6px;
 }
 
-.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form button:focus {
+.Register-Container .Left-Container .Left-Inner .Left-Content .Register-Form a:focus {
   outline: 0;
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../../styles/User/User.css";
 
@@ -13,7 +14,7 @@ export const RegisterForm = () => {
       <input type="password" />
       <label>* CONFIRM PASSWORD</label>
       <input type="password" />
-      <button>SIGN UP FOR FREE</button>
+      <Link to="/register">SIGN UP FOR FREE</Link>
     </form>
   );
 };
