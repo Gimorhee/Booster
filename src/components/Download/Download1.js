@@ -34,7 +34,7 @@ export const Download1 = () => {
             <span>Download Booster</span>
           </div>
           <h1>
-            Reduce loading times, improve network connections, strength gaming
+            Reduce loading times, improve network connections, strengthen gaming
             performane
           </h1>
           <p>
