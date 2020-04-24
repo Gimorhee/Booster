@@ -86,6 +86,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ea.com/en-ca/games/apex-legends"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Apex Legends
@@ -100,6 +101,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ashen-game.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Ashen
@@ -114,6 +116,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ea.com/en-ca/games/battlefield"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Battlefield 1
@@ -128,6 +131,7 @@ export const Games1 = () => {
                   <a
                     href="https://borderlands.com/en-US/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Borderlands 3
@@ -142,6 +146,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.mmorpg.com/bless-online"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Bless Online
@@ -156,6 +161,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ea.com/games/battlefield/battlefield-5/news?isLocalized=true"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Battlefield V
@@ -170,6 +176,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.cdgame.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Creatve Destruction
@@ -184,6 +191,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.callofduty.com/blackops"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Call of Duty: <br /> Black Ops
@@ -198,6 +206,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.callofduty.com/modernwarfare"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Call of Duty: <br /> Modern Warefare
@@ -212,6 +221,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.bandainamcoent.com/games/code-vein"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Code Vein
@@ -226,6 +236,7 @@ export const Games1 = () => {
                   <a
                     href="https://crowfall.com/en-US/index.html"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Crowfall
@@ -240,6 +251,7 @@ export const Games1 = () => {
                   <a
                     href="https://blog.counter-strike.net/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Counter Strike
@@ -254,6 +266,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.deathgardengame.com/en"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Deathgarden: Bloodharvest
@@ -268,6 +281,7 @@ export const Games1 = () => {
                   <a
                     href="http://blog.dota2.com/?l=english"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Dota 2
@@ -282,6 +296,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.origin.com/can/en-us/store/fifa/fifa-19"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Fifa 2019
@@ -296,6 +311,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.origin.com/can/en-us/store/fifa/fifa-20"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Fifa 2020
@@ -310,6 +326,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.h1z1.com/home"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     H1Z1
@@ -324,6 +341,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.epicgames.com/fortnite/en-US/home"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Fortnite
@@ -338,6 +356,7 @@ export const Games1 = () => {
                   <a
                     href="https://heroesofthestorm.com/en-us/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Heroes of the Storm
@@ -352,6 +371,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.huntshowdown.com/news/hunt-showdown-is-officially-out-on-pc"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Hunt: Showdown
@@ -366,6 +386,7 @@ export const Games1 = () => {
                   <a
                     href="https://2k.com/en-US/game/nba-2k19-standard-edition/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     NBA 2k19
@@ -380,6 +401,7 @@ export const Games1 = () => {
                   <a
                     href="https://nba.2k.com/en-US/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     NBA 2k20
@@ -394,6 +416,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ea.com/en-ca/games/madden-nfl/madden-nfl-19"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Madden NFL 2019
@@ -408,6 +431,7 @@ export const Games1 = () => {
                   <a
                     href="https://na.leagueoflegends.com/en-us/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     League of Legends
@@ -422,6 +446,7 @@ export const Games1 = () => {
                   <a
                     href="https://playoverwatch.com/en-us/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Overwatch
@@ -436,6 +461,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.konami.com/wepes/2020/eu/en/ps4/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     PES 2020
@@ -450,6 +476,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.paladins.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Pladins
@@ -464,6 +491,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.pubg.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Battlegrounds
@@ -478,6 +506,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ubisoft.com/en-ca/game/rainbow-six/siege"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Rainbow 6
@@ -492,6 +521,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.rocketleague.com/game-info/rocketpass/rocket-pass-6/?gclid=Cj0KCQjws_r0BRCwARIsAMxfDRihqSUyg79SBfUCfmX5mTbUzfbqYKI0JpWH9yIQ3-8PhYtdxZ2d3wYaArEoEALw_wcB&gclsrc=aw.ds"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Rocket League
@@ -506,6 +536,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.smitegame.com/play-for-free/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Smite
@@ -520,6 +551,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2/buy?isLocalized=true"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Star Wars: Battlefront II
@@ -534,6 +566,7 @@ export const Games1 = () => {
                   <a
                     href="http://www.teamfortress.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     Team Fortress 2
@@ -548,6 +581,7 @@ export const Games1 = () => {
                   <a
                     href="https://wotblitz.com/en/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     World of Tanks: Blitz
@@ -562,6 +596,7 @@ export const Games1 = () => {
                   <a
                     href="https://worldofwarplanes.com/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     World of Tanks: Warplanes
@@ -576,6 +611,7 @@ export const Games1 = () => {
                   <a
                     href="https://worldoftanks.com/join/2470_EN1?pub_id=wot_ong_com_%D1%81a_g_s-b_acq_kw_en__en_world_of_tanks_exact&xid_source=google&xid_medium=cpc&xid_network=g&xid_campaign_id=6547910399&xid_adgroup_id=84243067371&xid_ad_id=422663031491&xid_target_id=kwd-19594335510&xid_keyword=world+of+tanks&xid_placement=&xid_device_type=c&xid_position=&xid_region=9001504&xid_position_type=-&xid_target=&xid_feeditemid=&xid_matchtype=e&xid_clickid=Cj0KCQjws_r0BRCwARIsAMxfDRhHPiG-7Kyc0lJ5_0gg7zyCmOZZH3XPhSpE6s6RL6VCnxDYNIR5Q7waAj7CEALw_wcB&url=https%3A%2F%2Fworldoftanks.com%2F&gclid=Cj0KCQjws_r0BRCwARIsAMxfDRhHPiG-7Kyc0lJ5_0gg7zyCmOZZH3XPhSpE6s6RL6VCnxDYNIR5Q7waAj7CEALw_wcB&sid=SIDsY3FYqyNx1cqGIhr8dLBgDbbBXxOnygP553Spyl8I3OuITkbGWp9-MCctIkWA0_AUx9WRCmitp0bfEq7ALUd28GNfuLUhJoRJstos-xn01lokrPaFtB4d-ykS2lRECOWqsQTqizRT2vIsD9dx1vHcj4F&enctid=c27i148n8ra6&lpsn=WoT+Video1+RegDark+nstandart+SOI&utm_source=sem_brand&utm_medium=paid-search&utm_campaign=bn-google-ca-wot-brand&utm_content=wot_ong_com_%D1%81a_g_s-b_acq_kw_en__en_world_of_tanks_exact"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     World of Tanks
@@ -590,6 +626,7 @@ export const Games1 = () => {
                   <a
                     href="https://worldofwarships.com/join/6945_EN1?pub_id=wows_ong_com_ca_g_s-b_acq_kw_en__en_world_of_warships&xid_source=google&xid_medium=cpc&xid_network=g&xid_campaign_id=8695312721&xid_adgroup_id=91174609607&xid_ad_id=406262445088&xid_target_id=kwd-45231840955&xid_keyword=world+of+warships&xid_placement=&xid_device_type=c&xid_position=&xid_region=9001504&xid_position_type=-&xid_target=&xid_feeditemid=&xid_matchtype=e&xid_clickid=Cj0KCQjws_r0BRCwARIsAMxfDRh2nt9e4c3dMXeZsXkB98zRBusrEiWHflintoHDQ-hLcLte3Ra_sw0aAoWyEALw_wcB&url=https%3A%2F%2Fworldofwarships.com%2F&gclid=Cj0KCQjws_r0BRCwARIsAMxfDRh2nt9e4c3dMXeZsXkB98zRBusrEiWHflintoHDQ-hLcLte3Ra_sw0aAoWyEALw_wcB&sid=SIDocvyhXTvYpt0eglS8vniBj3m6oCT1nCCyyfxOH7JnHb_AaW7mlDEdS_xqkbCWI4fWA9PkcwhVTStD8I5RItCFlZWObaIAzbzGgwCqbY9tMG7auz8osi4IzGpfxrZdT87RvSEHspIZxKfijeaeADkIvE9SA&enctid=c27i1bvq96ca&lpsn=WOWS_Classes_1804_Video&utm_source=sem_brand&utm_medium=paid-search&utm_campaign=bn-google-ca-wows-brand&utm_content=wows_ong_com_ca_g_s-b_acq_kw_en__en_world_of_warships"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     World of Warships
@@ -604,6 +641,7 @@ export const Games1 = () => {
                   <a
                     href="https://www.epicgames.com/store/en-US/product/world-war-z/home"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="Game-Name"
                   >
                     World War Z

@@ -14,8 +14,19 @@ export const Overview = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const goTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="Overview-Container">
+      <div className="ButtonContainer" onClick={() => goTop()}>
+        <button className="MoveTopButton">
+          <span className="MoveTop">
+            <i className="far fa-caret-square-up"></i>
+          </span>
+        </button>
+      </div>
       <Overview1 />
       <Overview2 />
       <Overview3 />

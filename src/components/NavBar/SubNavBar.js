@@ -22,7 +22,7 @@ export const SubNavBar = () => {
           }
           to="/"
         >
-          <i class="fab fa-bootstrap SubNav-Logo"></i>
+          <i className="fab fa-bootstrap SubNav-Logo"></i>
           <span>Overview</span>
         </Link>
         <Link

@@ -9,8 +9,19 @@ export const Games = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const goTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="Games-Container">
+      <div className="ButtonContainer" onClick={() => goTop()}>
+        <button className="MoveTopButton">
+          <span className="MoveTop">
+            <i className="far fa-caret-square-up"></i>
+          </span>
+        </button>
+      </div>
       <Games1 />
       <Footer />
     </div>

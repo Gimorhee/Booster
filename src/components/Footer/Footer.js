@@ -74,7 +74,7 @@ export const Footer = () => {
               <i className="fab fa-instagram-square"></i>
               <i className="fab fa-twitter-square"></i>
               <i className="fab fa-snapchat-square"></i>
-              <i className="fab fa-twitter-square"></i>
+              <i className="fab fa-bootstrap"></i>
             </div>
             <p>
               © 2020 Booster. All Right Reserved. Designed & Developed by Danny

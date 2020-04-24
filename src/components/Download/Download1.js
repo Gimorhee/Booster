@@ -30,7 +30,7 @@ export const Download1 = () => {
       <div className="Download1">
         <animated.div style={topProps} className="Download1-Top">
           <div className="Booster-Logo">
-            <i class="fab fa-bootstrap"></i>
+            <i className="fab fa-bootstrap"></i>
             <span>Download Booster</span>
           </div>
           <h1>

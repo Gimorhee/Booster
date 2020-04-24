@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 
-import image from "../../images/overview.png";
+import laptopPic from "../../images/overview.png";
 
 export const Overview1 = () => {
   const topProps = useSpring({
@@ -36,7 +36,7 @@ export const Overview1 = () => {
       </animated.div>
       <animated.div style={bottomProps1} className="Overview1-Bottom">
         <div className="Overview1-Bottom-Inner">
-          <img src={image} alt="Laptop-Image" />
+          <img src={laptopPic} alt="Laptop" />
         </div>
       </animated.div>
     </div>

@@ -40,6 +40,18 @@ export const Pricing1 = () => {
       2
     );
 
+    let actualMonth;
+
+    if (month === 1) {
+      actualMonth = 1;
+    } else if (month === 2) {
+      actualMonth = 3;
+    } else if (month === 3) {
+      actualMonth = 6;
+    } else if (month === 4) {
+      actualMonth = 12;
+    }
+
     const onChange = (e) => {
       setPlanPrice({ ...planPrice, [e.target.name]: Number(e.target.value) });
     };
@@ -140,7 +152,7 @@ export const Pricing1 = () => {
               <div className="Plan-Price">
                 <h3>${totalPlanPrice} monthly</h3>
                 <p>
-                  for {month} month(s){" "}
+                  for {actualMonth} month(s){" "}
                   {discount > 0 && `- ${discount.toFixed(2) * 100}% savings`}
                 </p>
               </div>
