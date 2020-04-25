@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 import TrackVisibility from "react-on-screen";
 
@@ -60,13 +61,13 @@ export const Footer = () => {
             </a>
           </div>
           <div className="Footer-Content">
-            <a className="Content-Link" href="/games">
+            <Link className="Content-Link" to="/games">
               {" "}
               <div className="Content-Icon">
                 <i className="fas fa-gamepad"></i>
               </div>
               <p>Supported Games</p>
-            </a>
+            </Link>
           </div>
           <div className="Footer-Content">
             <div className="Content-SNS">

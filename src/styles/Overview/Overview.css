@@ -471,7 +471,7 @@
 .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Reliable,
 .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Generous {
   width: 120px;
-  height: 100px;
+  height: 110px;
   background-image: url("../../../src/images/logos.png");
   background-repeat: no-repeat;
   position: absolute;
@@ -515,11 +515,11 @@
 }
 
 .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Reliable {
-  background-position: 0px -500px;
+  background-position: 0px -495px;
 }
 
 .Overview-Container .Overview4 .Overview4-Icons .Overview4-Icon .Overview4-Generous {
-  background-position: -150px -500px;
+  background-position: -150px -488px;
 }
 
 .Overview-Container .Overview5 {

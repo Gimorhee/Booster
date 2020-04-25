@@ -52,7 +52,7 @@ export const Overview6 = () => {
                 "Booster works fantastically with zero interference. Thank you
                 so much for making something to improve my gaming life!"
               </p>
-              <span>-Danbi, Korea</span>
+              <span>-Danbee, Korea</span>
             </div>
           </div>
           <div className="Overview6-Testimonial">
