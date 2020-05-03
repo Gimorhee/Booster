@@ -73,8 +73,7 @@ export const Overview3 = () => {
             </div>
             <span>
               Rewards credits are automatically earned for each game session and
-              will be applied to your account automatically. You may earn up to
-              three credits/day.
+              will be applied to your account automatically.
             </span>
             <div className="Plan-Link">
               <Link className="Plan-Button" to="pricing">

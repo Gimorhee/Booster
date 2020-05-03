@@ -270,7 +270,7 @@
 
 .Overview-Container .Overview3 .Overview3-Plan-Card {
   position: relative;
-  width: 31%;
+  width: 32%;
   color: #f5f0e3;
   padding: 10px 25px 50px;
   border-radius: 10px;
@@ -278,7 +278,7 @@
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Svg {
-  height: 130px;
+  height: 100px;
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Svg img {
@@ -290,7 +290,7 @@
 .Overview-Container .Overview3 .Overview3-Plan-Card .Devider {
   position: absolute;
   left: 0%;
-  top: 33%;
+  top: 27%;
   right: 0%;
   bottom: auto;
   width: 100%;
@@ -309,7 +309,7 @@
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Thin-Devider {
-  top: 50%;
+  top: 44%;
   height: 2px;
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -332,7 +332,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Option {
@@ -355,18 +355,20 @@
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options span {
   font-size: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link {
-  margin-top: 25px;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 50px;
 }
 
 .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link .Plan-Button {
   color: #14868c;
   text-decoration: none;
   background: #dadada;
-  padding: 10px 20px;
+  padding: 13px 20px;
   border-radius: 4px;
   font-weight: 600;
 }

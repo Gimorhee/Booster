@@ -234,7 +234,7 @@
 
     .Overview3-Plan-Card {
       position: relative;
-      width: 31%;
+      width: 32%;
       color: #f5f0e3;
       padding: 10px 25px 50px;
       border-radius: 10px;
@@ -242,7 +242,7 @@
       min-height: 500px;
 
       .Plan-Svg {
-        height: 130px;
+        height: 100px;
 
         img {
           position: absolute;
@@ -254,7 +254,7 @@
       .Devider {
         position: absolute;
         left: 0%;
-        top: 33%;
+        top: 27%;
         right: 0%;
         bottom: auto;
         width: 100%;
@@ -273,7 +273,7 @@
       }
 
       .Thin-Devider {
-        top: 50%;
+        top: 44%;
         height: 2px;
         background-color: hsla(0, 0%, 100%, 0.2);
       }
@@ -291,7 +291,7 @@
       .Plan-Options {
         display: flex;
         flex-direction: column;
-        margin-top: 35px;
+        margin-top: 30px;
 
         .Plan-Option {
           display: flex;
@@ -311,16 +311,20 @@
 
         span {
           font-size: 15px;
-          margin-top: 15px;
+          margin-top: 10px;
         }
 
         .Plan-Link {
-          margin-top: 25px;
+          margin-top: 30px;
+          position: absolute;
+
+          bottom: 50px;
+
           .Plan-Button {
             color: #14868c;
             text-decoration: none;
             background: #dadada;
-            padding: 10px 20px;
+            padding: 13px 20px;
             border-radius: 4px;
             font-weight: 600;
 
