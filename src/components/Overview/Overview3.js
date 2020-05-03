@@ -69,13 +69,18 @@ export const Overview3 = () => {
             </div>
             <div className="Plan-Option">
               <img src={check} alt="" className="Rewards-Check" />
-              <p>Pre-session Check</p>
+              <p>Post-session Run-through</p>
             </div>
             <span>
               Rewards credits are automatically earned for each game session and
               will be applied to your account automatically. You may earn up to
-              three credits/day!
+              three credits/day.
             </span>
+            <div className="Plan-Link">
+              <Link className="Plan-Button" to="pricing">
+                Find More <i class="fas fa-angle-double-right"></i>
+              </Link>
+            </div>
           </div>
         </animated.div>
         <animated.div style={proProps} className="Overview3-Plan-Card Pro-Plan">
@@ -100,8 +105,13 @@ export const Overview3 = () => {
               <p>Unlimited Network Access</p>
             </div>
             <span>
-              With Booster Pro, you get unlimitted & optimized network!
+              With Booster Pro, you get unlimitted & optimized network.
             </span>
+            <div className="Plan-Link">
+              <Link className="Plan-Button" to="pricing">
+                Find More <i class="fas fa-angle-double-right"></i>
+              </Link>
+            </div>
           </div>
         </animated.div>
       </div>

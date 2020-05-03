@@ -358,6 +358,29 @@
   margin-top: 15px;
 }
 
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link {
+  margin-top: 25px;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link .Plan-Button {
+  color: #14868c;
+  text-decoration: none;
+  background: #dadada;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link .Plan-Button i {
+  -webkit-transition: 0.35s ease-in-out all;
+  transition: 0.35s ease-in-out all;
+}
+
+.Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link:hover i {
+  -webkit-transform: translateX(6px);
+          transform: translateX(6px);
+}
+
 .Overview-Container .Overview3 .Rewards-Plan {
   background: #6ba8a9;
 }

@@ -313,6 +313,28 @@
           font-size: 15px;
           margin-top: 15px;
         }
+
+        .Plan-Link {
+          margin-top: 25px;
+          .Plan-Button {
+            color: #14868c;
+            text-decoration: none;
+            background: #dadada;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 600;
+
+            i {
+              transition: 0.35s ease-in-out all;
+            }
+          }
+
+          &:hover {
+            i {
+              transform: translateX(6px);
+            }
+          }
+        }
       }
     }
 
