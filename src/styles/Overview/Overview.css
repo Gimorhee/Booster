@@ -929,6 +929,9 @@
   .Overview-Container .Overview3 {
     padding: 120px 40px;
   }
+  .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link .Plan-Button {
+    padding: 10px 20px;
+  }
   .Overview-Container .Overview4 h1 {
     font-size: 35.5px;
   }
