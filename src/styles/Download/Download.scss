@@ -134,7 +134,7 @@
       font-size: 40px;
       font-weight: 900;
       text-transform: uppercase;
-      color: #33b665;
+      color: #27caaf;
       margin-bottom: 30px;
     }
 
@@ -151,19 +151,20 @@
       text-decoration: none;
       font-size: 20px;
       font-weight: 800;
-      background: #309c59;
+      background: #27caaf;
       border: none;
       border-radius: 4px;
       padding: 17px 55px;
       color: #fff;
       transition: 0.7s ease-in-out all;
+      position: relative;
 
       &:focus {
         outline: none;
       }
 
       &:hover {
-        background: #195a32;
+        background: #18685b;
       }
     }
   }
@@ -377,6 +378,21 @@
 
       a {
         font-size: 16.5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Download-Container {
+    .Download1 {
+      .Download1-Top {
+        padding: 0;
+
+        h1 {
+          font-size: 27px;
+          margin-bottom: 30px;
+        }
       }
     }
   }

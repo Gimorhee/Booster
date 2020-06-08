@@ -927,7 +927,7 @@
     width: 25%;
   }
   .Overview-Container .Overview3 {
-    padding: 120px 40px;
+    padding: 120px 15px;
   }
   .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link .Plan-Button {
     padding: 10px 20px;
@@ -943,6 +943,42 @@
   }
   .Overview-Container .Overview6 h1 {
     font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Overview-Container .Overview1 .Overview1-Top {
+    padding: 45px 25px;
+  }
+  .Overview-Container .Overview2 {
+    padding: 0 10px;
+  }
+  .Overview-Container .Overview2 h1 {
+    font-size: 30px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h1 {
+    font-size: 30px;
+  }
+  .Overview-Container .Overview3 .Overview3-Left h3 {
+    font-size: 18px;
+  }
+  .Overview-Container .Overview3 .Overview3-Plan-Card h1 {
+    font-size: 25px;
+  }
+  .Overview-Container .Overview3 .Overview3-Plan-Card .Plan-Options .Plan-Link {
+    bottom: 35px;
+  }
+  .Overview-Container .Overview4 h1 {
+    font-size: 32px;
+  }
+  .Overview-Container .Overview5 {
+    padding: 120px 15px;
+  }
+  .Overview-Container .Overview5 h1 {
+    font-size: 35px;
+  }
+  .Overview-Container .Overview6 {
+    padding: 120px 15px;
   }
 }
 /*# sourceMappingURL=Overview.css.map */

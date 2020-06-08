@@ -36,7 +36,7 @@ export const Download2 = () => {
             automatically selects the fastest path available, even if that is
             your standard, non-Booster connection.
           </p>
-          <Link to="/register">Start Boosting!</Link>
+          <Link to="/register">Start Boosting</Link>
         </animated.div>
       </div>
     );

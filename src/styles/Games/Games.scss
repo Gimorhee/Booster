@@ -270,3 +270,13 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Games-Container {
+    .Games1 {
+      .Games-Bottom {
+        padding: 10px;
+      }
+    }
+  }
+}

@@ -231,4 +231,19 @@
     margin-top: none;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .Features-Container .Features1 {
+    padding: 25px 0;
+  }
+  .Features-Container .Features1 .Features1-Top h1 {
+    font-size: 28px;
+  }
+  .Features-Container .Features1 .Features1-Bottom .Features1-Features .Features1-Feature h2 {
+    font-size: 25px;
+  }
+  .Features-Container .Features2 .Features2-Top h1 {
+    font-size: 31px;
+  }
+}
 /*# sourceMappingURL=Features.css.map */

@@ -24,6 +24,12 @@
 
 .Footer .Footer-Top .Footer-Signup form {
   margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Footer .Footer-Top .Footer-Signup form input {
@@ -198,6 +204,12 @@
   .Footer .Footer-Bottom .Last-Content {
     font-size: 10px;
     padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Footer .Footer-Bottom .Footer-Content p {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=Footer.css.map */
